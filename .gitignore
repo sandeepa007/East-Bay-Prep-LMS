@@ -1,0 +1,8 @@
+# ignore all logs
+*.log
+
+# ignore config files
+config.php
+moodle-latest-34.zip
+
+
