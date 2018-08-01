@@ -1,0 +1,27 @@
+<div class="nav-tabs-horizontal" data-plugin="tabs"> 
+    <ul class="nav nav-tabs nav-tabs-line border-0" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" href="#recent_assignment" role="tab" data-toggle="tab">
+                {{# hasrecentassignments }}
+                    {{#str}}assignmentstobegraded, block_remuiblck{{/str}}
+                {{/ hasrecentassignments }}
+                {{^ hasrecentassignments }}
+                    {{#str}}recentfeedback, block_remuiblck{{/str}}
+                {{/ hasrecentassignments }}
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#recent_active_forum" role="tab" data-toggle="tab">
+                {{#str}}recentlyactiveforums, block_remuiblck{{/str}}
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content bg-white">
+        <div role="tabpanel" class="tab-pane fade show active" id="recent_assignment">
+            {{> block_remuiblck/recent_assignments }}
+        </div>
+        <div role="tabpanel" class="tab-pane fade show" id="recent_active_forum">
+            {{> block_remuiblck/recent_active_forum }}
+        </div>
+    </div>
+</div>

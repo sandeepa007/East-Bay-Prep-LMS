@@ -1,0 +1,49 @@
+{{!
+    @template theme_remui/block
+
+    Example context (json):
+    {
+        "id": "block0",
+        "showskiplink": true,
+        "type": "html",
+        "ariarole": "complementary",
+        "title": "Test block",
+        "blockinstanceid": 1,
+        "content": "<p>Hello block world!</p>"
+    }
+
+}}
+
+<div 
+    class="{{#hidden}}hidden{{/hidden}} moodle-has-zindex grid-stack-item block  block_{{type}} page-aside-section {{#hascontrols}}block_with_controls{{/hascontrols}} "  
+    id="{{id}}"  
+    role="{{ariarole}}"  
+    data-block="{{type}}"
+    {{#minwidth}} data-gs-min-width = "{{minwidth}}" {{/minwidth}}
+    {{#minheight}} data-gs-min-height = "{{minheight}}" {{/minheight}}
+    {{#posx}} data-gs-x="{{posx}}" {{/posx}} 
+    {{#posy}} data-gs-y="{{posy}}" {{/posy}}
+    {{^posx}} data-gs-x="0" {{/posx}} 
+    {{^posy}} data-gs-y="0" {{/posy}}
+
+    {{#width}} data-gs-width="{{width}}" {{/width}} 
+    {{#height}} data-gs-height="{{height}}" {{/height}}
+    {{#subname}} data-subname= "{{subname}}" {{/subname}}
+    {{#lock}} data-gs-no-resize = "true" {{/lock}}
+    {{#arialabel}} aria-label={{#quote}}{{{arialabel}}}{{/quote}} {{/arialabel}}
+    {{^arialabel}} {{#title}} aria-labelledby="instance-{{blockinstanceid}}-header" {{/title}} {{/arialabel}} >
+    
+  <div class="grid-stack-item-content bg-white card-block">
+    {{#hascontrols}}
+        <div class="block-controls float-right header">
+            {{{controls}}}
+        </div>
+    {{/hascontrols}}
+    {{#title}}
+        <h5 id="instance-{{blockinstanceid}}-header" class="page-aside-title px-0 m-0">{{{title}}}</h5>
+    {{/title}}
+    {{{content}}}
+      <div class="footer">{{{footer}}}</div>
+    {{{annotation}}}
+  </div>
+</div>

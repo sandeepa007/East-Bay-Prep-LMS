@@ -1,0 +1,42 @@
+
+<div class="card-block ">
+    <div class="row text-center">
+       <div class="col-6">
+            <div class="counter">
+                <div class="counter-label font-weight-600">{{#str}}enrolledcourses, theme_remui{{/str}}</div>
+                <div class="counter-number red-600 font-size-24">{{ totalcourses }}</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="counter">
+                <div class="counter-label font-weight-600">{{#str}}courseactivities, theme_remui{{/str}}</div>
+                <div class="counter-number blue-600 font-size-24">{{ totalactivities }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card-block">
+    <div class="row text-center mb-20">
+        <div class="col-6">
+            <div class="counter">
+                <div class="counter-label pb-15 font-weight-600">{{#str}}coursecompleted, theme_remui{{/str}}</div>
+                <div class="pie-progress pie-progress-sm" data-plugin="pieProgress" data-valuemax="100" data-barcolor="#57c7d4" data-size="100" data-barsize="10" data-goal="86" aria-valuenow="{{ courseprogress }}" role="progressbar">
+                    <div class="pie-progress-content" style = "z-index:2;">
+                        <div class="pie-progress-number">{{ courseprogress }}&#37;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="counter">
+                <div class="counter-label  pb-15 font-weight-600">{{#str}}activitycompleted, theme_remui{{/str}}</div>
+                <div class="pie-progress pie-progress-sm" data-plugin="pieProgress" data-valuemax="100" data-barcolor="#57c7d4" data-size="100" data-barsize="10" data-goal="86" aria-valuenow="{{ activitiesprogress }}" role="progressbar">
+                    <div class="pie-progress-content" style = "z-index:2;">
+                        <div class="pie-progress-number">{{ activitiesprogress }}&#37;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

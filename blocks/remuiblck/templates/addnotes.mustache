@@ -1,0 +1,31 @@
+
+<div id="add_notes" class="pt-20">
+  <div class="add-notes-select">
+    <select class="form-control">
+    <option value="">{{#str}}selectacourse, block_remuiblck{{/str}}</option>
+    {{# courses }}
+    <option id="{{ id }}">{{ shortname }}</option>
+    {{/ courses }}
+    </select>
+  </div>
+  <br>
+  <select class="select2-studentlist form-control"></select>
+  <br><br>
+    <div class="row px-15">
+      <div class="add-notes-button">
+        <a href="#" class="btn btn-xs btn-info site-note">{{#str}}addsitenote, theme_remui{{/str}}</a>
+      </div>
+      <div class="add-notes-button mx-auto">
+        <a href="#" class="btn btn-xs btn-info course-note">{{#str}}addcoursenote, theme_remui{{/str}}</a>
+      </div>
+      <div class="add-notes-button">
+        <a href="#" class="btn btn-xs btn-info personal-note">{{#str}}addpersonalnote, theme_remui{{/str}}</a>
+      </div>
+    </div>
+</div>
+
+{{#js}}
+require(['block_remuiblck/notes'], function(){
+
+});
+{{/js}} 

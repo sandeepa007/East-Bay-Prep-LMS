@@ -1,0 +1,72 @@
+Change Log:
+===========
+
+Version 3.4.3
+Feature - Flexible Dashboard, removed Every static block from dashboard, instead gave new block plugin which will add these blocks by-default 
+Feature - 6 Course Formats [Grid Format, One Topic Format, Buttons, Flexible Sections Format, Board (Grids & Blocks), NED - Tabs course format] Compatibility Added
+Tweak   - Spanish and Polish language file Included
+Tweak   - Removal of old "enable new dashboard" setting, from now on theme will have dashboard as new one only
+Tweak   - Integrate Load more functionality in Course Page
+Tweak   - Reverted the Course Page view, compatible to Core Moodle Look and Feel
+Fix     - Error in Save settings button Resolved
+Fix     - Includes recent menu string for translation.
+
+
+Version 3.4.2
+Feature - Flexible Dashboard, removed Every static block from dashboard, instead gave new block plugin which will add these blocks by-default 
+Tweak   - Removal of old "enable new dashboard" setting, from now on theme will have dashboard as new one only
+Tweak   - Integrate Load more functionality in Course Page
+Tweak   - Reverted the Course Page view, compatible to Core Moodle Look and Feel
+Fix     - Error in Save settings button Resolved
+
+Version 3.4.1
+Feature - Dictionary Feature 
+Feature - Recent Courses Button in header ( Speed Menu )
+Feature - Go to top Button on every page
+Feature - Google, Microsoft and Facebook Login buttons on login popup. RemUI enthusiast Mr. Dirk Grunwald, University of Colorado 
+          developed this feature and shared it with us.
+Feature - Mycourse and All courses (Course Archive) tab on single page
+Tweak - Upload image in course description summary and show the description on top
+Tweak - Notification and Messaging Icons in header has new animation (It shakes whenever new notification comes in)
+Tweak - Show activity name as text or tool tip on Next and Previous activity button
+Tweak - Course Description Improved
+Tweak - Search Courses with Short Name also in the course archive.
+Tweak - Home page Slider refinements
+Tweak - Font Awesome icons are supported throughout the theme.
+Tweak - Navigation Improvements
+Fix - "More" link in sidebar navigation takes to course archive 
+Fix - Search Field in forum overlaps long breadcrumbs
+Fix - Interface of assignments submission table
+Fix - Image size on Course enrollment page before enrollment 
+Fix - FAQ button 404 error
+Fix - Search Box overlapping in Teacher specific dashboard block
+Fix - Mssql RDBMS problem
+Fix - The participation filter dropdown menu is shifted down
+Fix - Overlapping text on the image does not work while using Static as the style for the HOMEPAGE SLIDER
+Fix - Course Analytics Error on Dashboard
+Fix - Unable to add block on profile page
+Fix - Left navigation collapsed -  mycourses link issue 
+Fix - Formatting does not work for Course Description that is written in the Course summary input area.
+Fix - In RemUI home page settings the section which says 'Body title for 1st Section' is same for two different settings.
+Fix - Action Dropdown background offset color issue
+Fix - Activity Show less and Show More toggle issue
+Fix - Side Bar, Mycourses and Site Administration links are not active when clicked
+Fix - Lots of space is being used in the top header menu in mobile view.
+Fix - Re-captcha on sign up page is not aligned properly
+Fix - Any activity page right sidebar open - comes as overlay - issue caused by next and previous button
+Fix - Issue related to the remui CSS that causes labels to not show up for a plugin 'CodeRunner'
+Fix - User can update their profile even if profile field is locked
+Fix - Guest should not see the activities completion checkbox
+Fix - Calendar Manage Subscription Problem
+Fix - Next and Previous activity problem with deleted activities
+
+
+Version 3.4.0
+Edwiser RemUI now compatible with Moodle version 3.4
+Initial Release of Edwiser RemUI 3.4
+Feature - New Teacher Centered Dashboard with Course and Student Progress
+Feature - Contact your students who are not attending lectures
+Feature - Sorting Functionality on Course Archieve Page
+Feature - List and Grid view for Course Tiles on Course Archieve Page
+Feature - Create New course button on Course Archieve Page
+

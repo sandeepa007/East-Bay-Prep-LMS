@@ -1,0 +1,146 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template block_myoverview/courses-view
+
+    This template renders the courses view for the myoverview block.
+
+    Example context (json):
+    {}
+}}
+{{#hascourses}}
+    <div class="m-xl-0">
+        <div class="" data-plugin="tabs">
+            <ul class="nav  nav-tabs-line" role="tablist" id="course-overview-section">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active show" data-toggle="tab" href="#incomingcourses" aria-controls="incomingcourses" role="tab" aria-selected="true">In Progress
+                     <span class="badge badge-pill badge-important" data-region="count-container">{{incoursecount}}</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-toggle="tab" href="#upcomingcourses" aria-controls="upcomingcourses" role="tab" aria-selected="false">Upcoming
+                     <span class="badge badge-pill badge-important" data-region="count-container">{{futurecount}}</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-toggle="tab" href="#pastcourses" aria-controls="pastcourses" role="tab" aria-selected="false">Expired
+                     <span class="badge badge-pill badge-important" data-region="count-container">{{duecount}}</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content pt-20">
+            {{#courses}}
+              <div class="tab-pane fade active show" id="incomingcourses" role="tabpanel">
+                <div class="wdm-overview-slider">
+                {{#inprogress}}
+                    {{> block_remuiblck/courses-view-course-item}}
+                {{/inprogress}}
+                </div>
+                {{^inprogress}}
+                    <div class="text-center mt-3 h-200 d-flex align-items-center justify-content-center flex-column">
+                        <img class="empty-placeholder-image-lg h-150"
+                        src="{{nocourses}}"
+                        alt="{{#str}} nocoursesinprogress, block_myoverview {{/str}}"
+                        role="presentation">
+                        <p class="text-muted mt-1">{{#str}} nocoursesinprogress, block_myoverview {{/str}}</p>
+                    </div>
+                {{/inprogress}}
+              </div>
+              <div class="tab-pane fade" id="upcomingcourses" role="tabpanel">
+                <div class="wdm-overview-slider">
+                {{#upcoming}}
+                    {{> block_remuiblck/courses-view-course-item}}
+                {{/upcoming}}
+                </div>
+                {{^upcoming}}
+                    <div class="text-center mt-3 h-200 d-flex align-items-center justify-content-center flex-column">
+                        <img class="empty-placeholder-image-lg h-150"
+                        src="{{nocourses}}"
+                        alt="{{#str}} nocoursesfuture, block_myoverview {{/str}}"
+                        role="presentation">
+                        <p class="text-muted mt-1">{{#str}} nocoursesfuture, block_myoverview {{/str}}</p>
+                    </div>
+                {{/upcoming}}
+              </div>
+              <div class="tab-pane fade" id="pastcourses" role="tabpanel">
+                <div class="wdm-overview-slider">
+                {{#past}}
+                    {{> block_remuiblck/courses-view-course-item}}
+                {{/past}}
+                </div>
+                {{^past}}
+                    <div class="text-center mt-3 h-200 d-flex align-items-center justify-content-center flex-column">
+                        <img class="empty-placeholder-image-lg h-150"
+                        src="{{nocourses}}"
+                        alt="{{#str}} nocoursespast, block_myoverview {{/str}}"
+                        role="presentation">
+                        <p class="text-muted mt-1">{{#str}} nocoursespast, block_myoverview {{/str}}</p>
+                    </div>
+                {{/past}}
+              </div>
+            {{/courses}}
+            </div>
+        </div>
+    </div>
+{{/hascourses}}
+
+{{#js}}
+
+require(['block_remuiblck/slick'], function () {
+    $('#course-overview-section a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        $('.wdm-overview-slider').slick('unslick');
+        $('.wdm-overview-slider').slick({
+            dots: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite:true,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    dots: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                  }
+                },
+                {
+                  breakpoint: 800,
+                  settings: {
+                    dots: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    dots:true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                  }
+                }
+            ]
+        });
+    });
+            
+});
+    
+{{/js}}

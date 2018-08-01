@@ -1,0 +1,70 @@
+
+<div id="stats">
+  {{# is_siteadmin }}
+    <div class="nav-tabs-horizontal chart-action"  data-plugin="tabs">
+    <ul class="nav nav-tabs nav-tabs-line border-0" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a  id="stats_name_one" class="nav-link active" data-toggle="tab" href="#statsOne" aria-controls="statsOne" role="tab">     
+        <i class="fa fa-pie-chart"></i>          
+        {{#str}}enrolleduserstats, block_remuiblck{{/str}}
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a id="stats_name_two" class="nav-link" data-toggle="tab" href="#statsTwo" aria-controls="statsTwo" role="tab">
+        <i class="fa fa-bar-chart"></i>
+        {{#str}}quizstats, block_remuiblck{{/str}}
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content pt-20">
+      <div class="tab-pane active" id="statsOne" role="tabpanel">
+        {{#data}}
+          {{> block_remuiblck/enrolled_users_stats }}
+        {{/data}}
+      </div>
+      <div class="tab-pane" id="statsTwo" role="tabpanel">
+        {{#quizdata}}
+            {{> block_remuiblck/quiz_stats }}
+        {{/quizdata}}
+      </div>
+    </div>
+  </div>
+  {{/ is_siteadmin }}
+</div>
+{{#js}}
+require(['block_remuiblck/userstats'], function(){});
+{{/js}}
+
+
+<!--
+
+    <div class="card card-shadow" style="clear: both;">
+      <div>
+        <ul class="nav nav-tabs nav-tabs-line border-0 chart-action float-left" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a id="stats_name_one" class="nav-link active" data-toggle="tab" href="#statsOne" aria-controls="statsOne" role="tab">
+            <i class="fa fa-pie-chart"></i> 
+              {{#str}}enrolleduserstats, block_remuiblck{{/str}}
+          </a>
+          </li>
+         <li class="nav-item" role="presentation" id="yui_3_17_2_1_1528892097752_432">
+            <a id="stats_name_two" class="nav-link" data-toggle="tab" href="#statsTwo" aria-controls="statsTwo" role="tab" aria-expanded="true"><i class="fa fa-bar-chart"></i>{{#str}}quizstats, block_remuiblck{{/str}}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="widget-content tab-content bg-white pb-20" data-plugin="tabs">
+        <div class="tab-content">
+          <div class="tab-pane active" >
+            {{#data}}
+              {{> block_remuiblck/enrolled_users_stats }}
+            {{/data}}
+          </div>
+          <div class="tab-pane">
+            {{#quizdata}}
+              {{> block_remuiblck/quiz_stats }}
+            {{/quizdata}}
+          </div>
+        </div>
+      </div>
+    </div>
+-->

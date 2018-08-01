@@ -1,0 +1,195 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+
+<table id="DataTables_Teacher" >
+    <thead>
+        <tr role="row">
+           <th>#</th>
+            <th>{{#str}}course,theme_remui{{/str}}</th>
+            <th>{{#str}}startdate,theme_remui{{/str}}</th>
+            <th>{{#str}}enrolledstudents,theme_remui{{/str}}</th>
+            <th>{{#str}}progress,theme_remui{{/str}}</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#course_progress}}
+    {{> block_remuiblck/dashboard_teacher_view_row }}
+    {{/course_progress}}
+    </tbody>
+</table>
+<!-- Div for Student Progress table -->
+<div class="student_progress_ele">
+</div>
+
+
+{{#js}}
+
+    require(['theme_remui/jquery.dataTables', 'theme_remui/dataTables.bootstrap4'], function(){
+        
+       //*****************
+    // This is code is for table creation on dashboard
+    // this code also toggles between course progress and student progress table
+    // Function createDatatable() creates course progress table
+
+
+    function createDatatable()
+    {
+        var data;
+
+        if ( $.fn.dataTable.isDataTable( '#DataTables_Teacher' ) ) {
+            data = $('#DataTables_Teacher').DataTable();
+        }
+        else {
+            data = $('#DataTables_Teacher').DataTable({
+                        "paging":   true,
+                        "retrieve": true,
+                        "pagingType": "simple_numbers",
+                        "lengthchange":false,
+                        "autoWidth": true,
+                        "scrollX": true,
+                        "search": "Fred",
+                        "lengthChange": false,
+                        "info":false,
+                        language: {
+                            searchPlaceholder: "Search"
+                        },
+                        responsive: true,
+                    });
+        }
+        {{! $('div.dataTables_filter input').addClass('form-control'); }}
+        {{! $('div.dataTables_length select').addClass('form-control'); }}
+        return data;
+    }
+    // call to the createDatatable for course progress
+    var teacherViewTable = createDatatable();
+
+    // Destroy the table and send ajax request
+    jQuery('body').on('click', '.wdm_course_name',function(){
+        var courseid = $(this).data('courseid');
+        teacherViewTable.destroy();
+        $('#DataTables_Teacher').hide();
+        getCourseProgressData(courseid);
+    });
+
+    // Restore the previous table
+    // $('#courserevertbtn').on( 'click', function () {
+    jQuery('body').on('click', '#courserevertbtn',function(){
+        courseProgressTable.destroy();
+        $('.student_progress_ele').empty();
+        $('#DataTables_Teacher').show();
+        teacherViewTable = createDatatable();
+    });
+
+    // This function will retrieve the student progress
+    var courseProgressTable;
+    function getCourseProgressData(courseid){
+
+        jQuery.ajax({
+            type: "GET",
+            async: true,
+            url: M.cfg.wwwroot + '/theme/remui/request_handler.php?action=get_course_progress_ajax&courseid=' + courseid,
+            success: function (response) {
+                $('div.student_progress_ele').empty();
+                $('div.student_progress_ele').append(response);
+
+                jQuery('.pie-progress').asPieProgress({
+                    namespace: 'pie-progress',
+                    speed: 30,
+                    classes: {
+                        svg: 'pie-progress-svg',
+                        element: 'pie-progress',
+                        number: 'pie-progress-number',
+                        content: 'pie-progress-content'
+                    }
+                });
+
+                courseProgressTable = $('#wdmCourseProgressTable').DataTable({
+                    "scrollY":        "300px",
+                    "scrollCollapse": true,
+                    "paging":false,
+                    "retrieve": true,
+                    "lengthchange":false,
+                    "autoWidth": true,
+                    "scrollX": true,
+                    "search": "Fred",
+                    "info":false,
+                    language: {
+                        searchPlaceholder: "Search"
+                    },
+                    responsive: true,
+                });
+
+                $('div.dataTables_filter input').addClass('form-control');
+                $('div.dataTables_length select').addClass('form-control');
+            },
+            error: function (xhr, status, error) {
+                console.log("we are not here ");
+                jQuery('div#analysis-chart-area').hide();
+            }
+        });
+
+    }
+
+
+    //******************
+    // This block opens modal and sends message to user
+
+    jQuery('body').on('click', '.custom-message',function(){
+        var studentid = jQuery(this).data('studentid');
+        console.log(studentid);
+        jQuery('#messageidhidden').val(studentid);
+    });
+
+    jQuery('body').on('click', '.send-message',function(){
+        var studentid = jQuery('#messageidhidden').val();
+        var message   = jQuery('#messagearea').val();
+
+        if(message != '') {
+            sendMessageToUser(studentid, message);
+        } else {
+            jQuery('#messagearea').focus();
+        }
+    });
+
+
+
+    function sendMessageToUser(studentid, message){
+
+        jQuery.ajax({
+            type: "GET",
+            async: true,
+            url: M.cfg.wwwroot + '/theme/remui/request_handler.php?action=send_message_user_ajax&studentid=' + studentid +'&message='+message,
+            success: function (response) {
+                clearModalFields();
+                jQuery('.close-message').click();
+            },
+            error: function (xhr, status, error) {
+                jQuery('div#analysis-chart-area').hide();
+            }
+        });
+
+    }
+
+
+    function clearModalFields()
+    {
+        jQuery('#messageidhidden').val('');
+        jQuery('#messagearea').val('');
+    }
+    //***********************************
+    });
+{{/js}}

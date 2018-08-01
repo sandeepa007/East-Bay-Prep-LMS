@@ -1,0 +1,19 @@
+
+<div id="latest_members">
+  {{# is_siteadmin }}
+    <div class="p-20">
+      <ul class="users-list">
+      {{# latest_members }}
+      <li class="list-inline-item">
+      <img src="{{ img }}" alt="{{#str}}userimage, theme_remui{{/str}}">
+      <a class="users-list-name" href="{{ profile_url }}={{ id }}">{{ name }}</a>
+      <span class="users-list-date">{{ register_date }}</span>
+      </li>
+      {{/ latest_members }}
+      </ul>
+      <div class="text-center pt-15" style="clear: both;">
+      <a href="{{ user_profiles }}" class="uppercase">{{#str}}viewallusers, theme_remui{{/str}}</a>
+      </div>
+    </div>
+  {{/ is_siteadmin }}
+</div>
