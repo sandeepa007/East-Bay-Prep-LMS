@@ -66,11 +66,16 @@
                             <img src="{{ profilepicture }}" alt="{{ firstname }} {{ lastname }}">
                         </a>
                         <h4 class="profile-user">{{ firstname }} {{ lastname }}</h4>
+                        <!-- BOF Kha Team  -->
+                        <h4 class="profile-user">Id Number : {{ idnumber }} </h4>
+                        <!-- EOF Kha Team  -->
                         {{# usercanmanage }}
                         {{^ notcurrentuser }}
                         <p class="profile-job">{{# str }} administrator, theme_remui {{/ str }}</p>
                         {{/ notcurrentuser }}
                         {{/ usercanmanage }}
+
+                        
 
                         <div id="user-description"><p>{{{ description }}}</p></div>
 
@@ -288,6 +293,10 @@
                                                         <input type="email" class="form-control" id='standard_email' name="standard_email" data-fv-field="standard_email" value="{{ email }}" disabled>
                                                     </div>
                                                 </div>
+
+
+                                               
+
                                                 <div class="form-group row">
                                                     <label class="col-md-3 form-control-label">{{# str }} citytown, theme_remui {{/ str }}</label>
                                                     <div class="col-md-9">

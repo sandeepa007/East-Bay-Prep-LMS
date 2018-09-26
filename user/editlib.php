@@ -406,7 +406,7 @@ function useredit_shared_definition(&$mform, $editoroptions, $filemanageroptions
     $mform->setType('msn', core_user::get_property_type('msn'));
     $mform->setForceLtr('msn');
 
-    $mform->addElement('text', 'idnumber', get_string('idnumber'), 'maxlength="255" size="25"');
+    $mform->addElement('text', 'idnumber', get_string('idnumber'), 'maxlength="255" size="25" readonly');
     $mform->setType('idnumber', core_user::get_property_type('idnumber'));
 
     $mform->addElement('text', 'institution', get_string('institution'), 'maxlength="255" size="25"');

@@ -56,6 +56,7 @@ $courserenderer = $PAGE->get_renderer('core', 'course');
 
 if ($CFG->forcelogin) {
     require_login();
+    
 }
 
 if ($categoryid && !$category->visible && !has_capability('moodle/category:viewhiddencategories', $PAGE->context)) {

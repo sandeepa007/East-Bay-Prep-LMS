@@ -57,6 +57,8 @@
 
     require_login($course);
 
+   
+
     // Switchrole - sanity check in cost-order...
     $reset_user_allowed_editing = false;
     if ($switchrole > 0 && confirm_sesskey() &&

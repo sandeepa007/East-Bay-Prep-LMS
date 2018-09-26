@@ -31,12 +31,19 @@ require_once($CFG->dirroot . '/user/editlib.php');
 
 class login_signup_form extends moodleform implements renderable, templatable {
     function definition() {
-        global $USER, $CFG;
+        global $USER, $CFG, $DB;
 
         $mform = $this->_form;
 
         $mform->addElement('header', 'createuserandpass', get_string('createuserandpass'), '');
 
+        /** BOF Kha Team  **/
+        $sql = 'SELECT id FROM mdl_user ORDER BY id DESC limit 1';
+        $result = $DB->get_field_sql($sql);
+        $newid=1000000+$result+1;
+        $mform->addElement('text', 'idnumber', get_string('idnumber'), 'maxlength="7" size="12" autocapitalize="none" readonly id="veb_idnumber" value="'.$newid.'"');
+        $mform->setType('idnumber', PARAM_RAW);
+        /** EOF Kha Team **/
 
         $mform->addElement('text', 'username', get_string('username'), 'maxlength="100" size="12" autocapitalize="none"');
         $mform->setType('username', PARAM_RAW);
