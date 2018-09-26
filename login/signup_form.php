@@ -38,7 +38,7 @@ class login_signup_form extends moodleform implements renderable, templatable {
         $mform->addElement('header', 'createuserandpass', get_string('createuserandpass'), '');
 
         /** BOF Kha Team  **/
-        $sql = 'SELECT id FROM mdl_user ORDER BY id DESC limit 1';
+        $sql = 'SELECT id FROM '.$CFG->prefix.'user ORDER BY id DESC limit 1';
         $result = $DB->get_field_sql($sql);
         $newid=1000000+$result+1;
         $mform->addElement('text', 'idnumber', get_string('idnumber'), 'maxlength="7" size="12" autocapitalize="none" readonly id="veb_idnumber" value="'.$newid.'"');
