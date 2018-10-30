@@ -1,0 +1,22 @@
+--- mod/quiz/report/overview/report.php	(revision bbcf8dab4f0f4db1b766733a479a86fc07484831)
++++ mod/quiz/report/overview/report.php	(revision )
+@@ -28,7 +28,8 @@
+ require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport.php');
+ require_once($CFG->dirroot . '/mod/quiz/report/overview/overview_options.php');
+ require_once($CFG->dirroot . '/mod/quiz/report/overview/overview_form.php');
+-require_once($CFG->dirroot . '/mod/quiz/report/overview/overview_table.php');
++//Grade By Category Change to Core : Following line has been changed. Required filename changed.
++require_once($CFG->dirroot . '/mod/quiz/accessrule/gradebycategory/overview_table_with_category_totals.php');
+ 
+ 
+ /**
+@@ -68,7 +69,8 @@
+         // Prepare for downloading, if applicable.
+         $courseshortname = format_string($course->shortname, true,
+                 array('context' => context_course::instance($course->id)));
+-        $table = new quiz_overview_table($quiz, $this->context, $this->qmsubselect,
++        //Grade By Category Change to Core : Following line has been changed. Class name changed.
++        $table = new quiz_overview_table_with_category_totals($quiz, $this->context, $this->qmsubselect,
+                 $options, $groupstudents, $students, $questions, $this->get_base_url());
+         $filename = quiz_report_download_filename(get_string('overviewfilename', 'quiz_overview'),
+                 $courseshortname, $quiz->name);

@@ -256,3 +256,6 @@ if (empty($reportsbyname) && empty($rulesbyname)) {
 }
 
 $settings = null; // We do not want standard settings link.
+
+
+//require($CFG->dirroot.'/mod/quiz/accessrule/gradebycategory/settings.php');//by me

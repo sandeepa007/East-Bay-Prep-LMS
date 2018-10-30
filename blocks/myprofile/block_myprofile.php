@@ -92,8 +92,12 @@ class block_myprofile extends block_base {
         if(!isset($this->config->display_email) || $this->config->display_email == 1) {
             $this->content->text .= '<div class="myprofileitem email">';
             $this->content->text .= obfuscate_mailto($USER->email, '');
+            $this->content->text .= '<br><a href="http://219.91.251.250/lms/login/change_password.php"><button>Reset Student Password</button></a>';
             $this->content->text .= '</div>';
         }
+
+              
+   
 
         if(!empty($this->config->display_icq) && !empty($USER->icq)) {
             $this->content->text .= '<div class="myprofileitem icq">';
@@ -148,6 +152,24 @@ class block_myprofile extends block_base {
             $this->content->text .= format_string($USER->address);
             $this->content->text .= '</div>';
         }
+
+        /*-- BOF Kha Team  --*/
+        $this->content->text .= '<div class="myprofileitem fullname">Parent Info</div>';
+        if(!empty($USER->profile['FirstName'])) {
+            $this->content->text .= '<div class="myprofileitem pfname">';
+
+            $this->content->text .= '<div class="fname"><strong>Name: </strong>';/*me*/
+            $this->content->text .= format_string($USER->profile['FirstName'].' '.$USER->profile['LastName']);
+            $this->content->text .= '</div></div>';
+            $this->content->text .= '<div class="myprofileitem pfname"><strong>Phone: </strong>';
+            $this->content->text .= format_string($USER->profile['Phone']);
+            $this->content->text .= '</div>';
+            $this->content->text .= '<div class="myprofileitem pfname"><strong>Email: </strong>';
+            $this->content->text .= format_string($USER->profile['Email']);
+            $this->content->text .= '</div><br>';
+        }
+        /*-- EOF Kha Team  --*/
+
 
         if(!empty($this->config->display_firstaccess) && !empty($USER->firstaccess)) {
             $this->content->text .= '<div class="myprofileitem firstaccess">';

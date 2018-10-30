@@ -83,6 +83,13 @@
                 jQuery("#definition_layer").remove();
             });
 
+           
+             jQuery( document ).ready(function() {
+               
+                jQuery( ".node_category li input:checkbox:not(:checked)" ).closest( ".contentnode" ).css( "display", "none" );
+
+             });
+
             // Get location of selected text
             function getSelectionCoords(win) {
                win = win || window;

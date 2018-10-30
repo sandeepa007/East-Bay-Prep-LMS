@@ -1,0 +1,14 @@
+<form action="http://13.57.1.117/local/contact/index.php" method="post" class="template-form">
+    <fieldset>
+        <label for="name" id="namelabel">Your name <strong class="required">(required)</strong></label><br>
+        <input id="name" name="name" type="text" pattern="[A-zÀ-ž]([A-zÀ-ž\s]){2,}" title="Minimum 3 letters/spaces." required="required" value="" style="width:100%;"><br>
+        <label for="email" id="emaillabel">Email address <strong class="required">(required)</strong></label><br>
+        <input id="email" name="email" type="email" required="required" value="" style="width:100%;"><br>
+        <input type="hidden" id="sesskey" name="sesskey" value="">
+        <script>document.getElementById('sesskey').value = M.cfg.sesskey;</script>
+        **{recaptcha}**
+    </fieldset>
+    <div>
+        <input type="submit" name="submit" id="submit" value="Send">
+    </div>
+</form>

@@ -57,3 +57,4 @@ class remui_renderer extends \core_renderer {
         return $this->render_from_template('theme_remui/remui_sidebar', $remui_sidebar->export_for_template($this));
     }
 }
+

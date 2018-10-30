@@ -1,0 +1,9 @@
+--- mod/quiz/settings.php	(revision bbcf8dab4f0f4db1b766733a479a86fc07484831)
++++ mod/quiz/settings.php	(revision )
+@@ -223,3 +223,6 @@
+ }
+ 
+ $settings = null; // We do not want standard settings link.
++
++//Grade By Category Change to Core : Following line has been added.
++require($CFG->dirroot.'/mod/quiz/accessrule/gradebycategory/settings.php');
