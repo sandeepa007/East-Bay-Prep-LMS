@@ -1,0 +1,673 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 07:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: edwiser-multiple-users-course-purchase.php:211
+#, php-format
+msgid ""
+"%s %s is inactive.%s Install and activate %sWooCommerce%s,\n"
+"                        %sEdwiserBridge%s and %sWoocommerce Integration%s "
+"for %s to work."
+msgstr ""
+
+#: edwiser-multiple-users-course-purchase.php:224
+#, php-format
+msgid ""
+"%s %s is inactive.%s Install and activate %sEdwiserBridge%s for %s to work."
+msgstr ""
+
+#: edwiser-multiple-users-course-purchase.php:236
+#, php-format
+msgid ""
+"%s %s is inactive.%s Install and activate %sWooCommerce%s for %s to work."
+msgstr ""
+
+#: edwiser-multiple-users-course-purchase.php:248
+#, php-format
+msgid ""
+"%s %s is inactive.%s Install and activate %sWoocommerce Integration%s for %s "
+"to work."
+msgstr ""
+
+#: migrate/class-eb-bp-migrate.php:85
+msgid "Unable to create cohort, for support "
+msgstr ""
+
+#: migrate/class-eb-bp-migrate.php:85 migrate/class-eb-bp-migrate.php:132
+msgid " Click here"
+msgstr ""
+
+#: migrate/class-eb-bp-migrate.php:91
+msgid "Cohort creation completed"
+msgstr ""
+
+#: migrate/class-eb-bp-migrate.php:132
+msgid "Unable to add user in the cohort, for support"
+msgstr ""
+
+#: migrate/class-eb-bp-migrate.php:140
+msgid "Users added into the cohort"
+msgstr ""
+
+#: migrate/class-eb-bp-db-backup.php:18
+msgid "Database Backup Completed"
+msgstr ""
+
+#: migrate/class-eb-bp-db-backup.php:21
+msgid ""
+"Unable to back up Database Please take database backup manually and then "
+"proceed."
+msgstr ""
+
+#: migrate/class-eb-bp-db-backup.php:64
+msgid "Please Include all the needed apis on moodle site"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:375
+#, php-format
+msgid "Please enter license key for %s."
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:382
+#, php-format
+msgid "License key for %s is activated."
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:396
+#, php-format
+msgid "License key for %s have been Expired. Please, Renew it."
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:404
+#, php-format
+msgid "License key for %s is Disabled."
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:414
+#, php-format
+msgid "License Key for %s is already activated at : %s"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:445
+#, php-format
+msgid "Please enter valid license key for %s."
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:459
+msgid "Site inactive(Press Activate license to activate plugin)"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:466
+#, php-format
+msgid "License Key for %s is deactivated"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:505
+#: includes/class-eb-select-add-plugin-data-in-db.php:510
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:507
+#: includes/class-eb-select-add-plugin-data-in-db.php:513
+msgid "Activate License"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:508
+#: includes/class-eb-select-add-plugin-data-in-db.php:511
+msgid "Renew License"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:532
+msgid "Active"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:534
+msgid "Not Active"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:536
+#: includes/class-eb-select-add-plugin-data-in-db.php:538
+msgid "Expired"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:540
+msgid "Invalid Key"
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:542
+msgid "Not Active "
+msgstr ""
+
+#: includes/class-eb-select-add-plugin-data-in-db.php:605
+msgid "Server is not reachable at a time, please try after some time."
+msgstr ""
+
+#: includes/class-eb-bp-cohort-manage-user.php:101
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:187
+msgid "Unenrolled successfully!"
+msgstr ""
+
+#: includes/class-eb-bp-cohort-manage-user.php:106
+msgid "Unable to remove user from the cohort"
+msgstr ""
+
+#: includes/class-eb-bp-ajax-handler.php:179
+msgid "Unenrolled Successfully"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-user-manager.php:32
+msgid "Invalid user data."
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-user-manager.php:57
+msgid "Available sets quantity is less than requested quantity."
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-user-manager.php:279
+msgid "Users with following email ids have been enrolled successfully"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-user-manager.php:290
+msgid "User with the following email ids already for all the courses"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-user-manager.php:302
+msgid "Some Error occured while enrolling users with following email ids:"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-enroll-self.php:33
+msgid "Group Enrolle"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-enroll-self.php:34
+msgid "yes"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase-enroll-self.php:100
+msgid "Enable Group Purchase"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:13
+msgid "Cohort"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:36
+msgid "Details"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:62
+msgid "Company Name :"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:66
+msgid "Cohort Manager :"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:70
+msgid "Total Cohort Members :"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:74
+msgid "Associated Courses :"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:89
+msgid "User Name :"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-enrollment-manager.php:96
+msgid ""
+"  Unenrolling users from the cohort will unenroll users from all the "
+"associated courses."
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:77
+msgid "Enroll student in bulk"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:96
+msgid "You have been enrolled in course"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:115
+msgid "You have been unenrolled from cohort"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:135
+msgid "Start enrolling students in courses"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:143
+#: includes/class-eb-bp-email-template-manager.php:214
+#: includes/class-eb-bp-email-template-manager.php:272
+msgid "Hi {FIRST_NAME},"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:149
+msgid "Thank you for purchasing bulk products."
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:161
+#, php-format
+msgid "Associated courses %s"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:174
+#, php-format
+msgid "You can enroll students in the purchased products from %s."
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:206
+#, php-format
+msgid "You have been successfully enrolled in %s"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:220
+#, php-format
+msgid "You have been enrolled by %s to courses"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:233
+#, php-format
+msgid "You can access your courses from %s."
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:264
+#, php-format
+msgid "You have been unenrolled from %s"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:278
+#, php-format
+msgid "You have been unenrolled by %s from courses"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:307
+msgid "Bulk product purchase(courses)"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:308
+msgid "User enrolled in cohort"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:309
+msgid "User unenrolled from cohort"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:320
+msgid "Enroll Students Page URL"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:321
+msgid "Name of the products purchased in bulk"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:322
+msgid "List of the courses associated with the product"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:323
+#: includes/class-eb-bp-email-template-manager.php:324
+msgid "Enrolled courses list"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:325
+msgid "Cohort manager display name"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:326
+msgid "Cohort name"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:327
+msgid "Cohort unenrolled courses list for users"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:385
+msgid "Enroll Students"
+msgstr ""
+
+#: includes/class-eb-bp-email-template-manager.php:446
+msgid "Test Product"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase.php:472
+msgid "Group Purchase"
+msgstr ""
+
+#: includes/class-edwiser-multiple-users-course-purchase.php:475
+msgid "Allow user to purchase course product in bulk."
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:139
+msgid "Enroll Students Page"
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:140
+msgid "Select the page having shortcode [bridge_woo_enroll_users]."
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:146
+msgid "- Select a page -"
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:165
+msgid "Failed!"
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:210
+msgid "Extra profile information"
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:213
+msgid "Company Name"
+msgstr ""
+
+#: admin/class-edwiser-multiple-users-course-purchase-admin.php:217
+msgid "Where are you?"
+msgstr ""
+
+#: public/edwiser-multiple-users-course-purchase-upload-csv.php:16
+msgid ""
+"Invalid CSV file data please upload correct file or check the sample CSV for "
+"correct format"
+msgstr ""
+
+#: public/edwiser-multiple-users-course-purchase-upload-csv.php:49
+msgid ""
+"Insufficient quantity avaiable please add more quantity or reduse CSV records"
+msgstr ""
+
+#: public/edwiser-multiple-users-course-purchase-upload-csv.php:69
+#: public/class-edwiser-multiple-users-course-purchase-public.php:442
+msgid "Enter First Name : * "
+msgstr ""
+
+#: public/edwiser-multiple-users-course-purchase-upload-csv.php:77
+#: public/class-edwiser-multiple-users-course-purchase-public.php:443
+msgid "Enter Last name : * "
+msgstr ""
+
+#: public/edwiser-multiple-users-course-purchase-upload-csv.php:85
+#: public/class-edwiser-multiple-users-course-purchase-public.php:444
+msgid "Enter E-mail ID : * "
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:167
+msgid "Success: Successfully enabled single group creation for group products."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:169
+msgid ""
+"Error: Filed to enable single group creation, Please make the all group "
+"products quantity equal and update your cart."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:174
+msgid ""
+"Success: Successfully disabled single group creation for group products."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:233
+msgid "This will allow to create the same product for all the courses products"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:234
+msgid "Add all product in same group"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:270
+msgid "change associated courses."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:270
+msgid "delete the product permanently."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:276
+#, php-format
+msgid "This product is purchased by more than one user can't %s"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:440
+msgid "Add New User"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:441
+msgid "Enroll"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:445
+msgid "All fields marked with * are mandatory."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:446
+msgid ""
+"Please select a valid CSV file. Required headers are <b>First Name</b>, <b>"
+"Last Name</b>, <b>Username</b> and <b>Email</b>."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:447
+msgid "Invalid Email ID:"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:448
+msgid "user"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:449
+msgid "You can enroll only"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:450
+msgid "Please upload CSV file first."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:458
+msgid "Sorry, No users Enrolled Yet"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:459
+msgid "Please enter quantity"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:460
+#: public/templates/enroll-users-page.php:60
+msgid "Associated Courses"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:461
+msgid "Enroll User"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:462
+#: public/templates/enroll-users-page.php:88
+msgid "Enroll New User"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:463
+msgid "Cancel"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:464
+msgid "Proceed to checkout"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:465
+msgid "OK"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:466
+#: public/templates/enroll-users-page.php:72
+msgid "Add Quantity"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:467
+msgid "Add new products in "
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:468
+msgid "Save Changes"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:469
+msgid "Close"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-purchase-public.php:470
+msgid "Insufficient Quantity. Please Add more quantity"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:59
+msgid "Enrolled Users:"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:66
+msgid "ID"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:67
+msgid "FirstName"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:68
+msgid "LastName"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:69
+msgid "Email Id"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:70
+msgid "Role"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:71
+msgid "Manage"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:88
+msgid "Edit"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:208
+msgid "Invalid request parameters"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:248
+msgid "User data has been updated successfully."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:250
+msgid "Failed to update user on moodle."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:254
+msgid "User data is inappropriate."
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:319
+msgid "Checkout page not found, Please contact admin"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:355
+#: public/class-edwiser-multiple-users-course-enroll-users.php:462
+msgid "Product Name"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:356
+#: public/class-edwiser-multiple-users-course-enroll-users.php:360
+#: public/class-edwiser-multiple-users-course-enroll-users.php:463
+msgid "Price"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:358
+#: public/class-edwiser-multiple-users-course-enroll-users.php:465
+msgid "Quantity"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:430
+#: public/class-edwiser-multiple-users-course-enroll-users.php:525
+msgid "'Sorry, currently there are no group products available '"
+msgstr ""
+
+#: public/class-edwiser-multiple-users-course-enroll-users.php:467
+msgid "Total"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:19
+msgid "Please select Product"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:25
+msgid "Select Product:"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:32
+msgid "Select Product"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:66
+msgid "Add Product"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:83
+msgid "Number of Seats Available :"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:101
+msgid "Download Sample CSV"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:105
+msgid "Upload CSV"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:117
+msgid "First name *"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:121
+msgid "Last name *"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:125
+msgid "Email Address *"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:145
+msgid "Login required to enroll users!"
+msgstr ""
+
+#: public/templates/enroll-users-page.php:148
+msgid "Sign in"
+msgstr ""
+
+#. Name of the plugin
+msgid "Bulk Purchase and Group Registration"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows to group enrollment of users in moodle."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "www.wisdmlabs.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "WisdmLabs, India"
+msgstr ""

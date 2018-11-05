@@ -1,0 +1,214 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Jun, 2016, 6:44:06 PM
+    Author     : sudam
+*/
+.wdm_eb_lable{
+    padding: 0px 10px;;
+    color: #333;
+    font-size: 16px;
+}
+#edb_course_product_name{
+    background: #fff;
+    height: 40px;
+    padding: 5px;
+}
+.wdm_enrolled_users{
+    padding: 1%;
+    color: #333;
+    font-size: 16px;
+}
+#wdm_eb_enroll_user{
+    background: #fff;
+    padding: 10px;
+}
+#wdm_eb_enroll_user li{
+    padding-right: 10px;
+}
+.wdm_enrolled_users label{
+    padding: 10px;
+    color: #333;
+    font-size: 18px;
+}
+.enrolled_users_list{
+    padding: 0px 20px;
+}
+.enrolled_users_list li{
+    padding-left: 5px;
+    font-size: 14px;
+}
+#wdm_seats{
+    color: #333;
+    font-size: 16px;
+/*    padding: 0px 10px;*/
+}
+.wdm_new_user, .wdm_button {
+    list-style-type: none !important;
+    border: 1px solid #ddd;
+    padding: 0% 0% 2% 2%;
+}
+.wdm_new_user label{
+    padding-left: 10px;
+    color: #333;
+    width: 200px;
+}
+.wdm_new_user input[type="text"],.wdm_new_user input[type="email"]{
+    height: 40px;
+    font-size: 16px !important;
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-style: solid;
+    border-color: #e1e1e1;
+}
+.wdm_edwiser_bulk_purchase input[type="checkbox"]{
+    width: 20px !important;
+    height: 20px;
+    vertical-align: bottom;
+}
+.wdm_button button{
+    background: #000088b2;
+    padding: 10px;
+    color: #fff;
+}
+.wdm_edwiser_bulk_purchase{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.course-select{
+    display: inline-flex;
+}
+.image {
+
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+#wdm_avaliable_reg{
+    padding: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/**
+ * Show Login Request Message if user is not logged in - Styling.
+ * @author Pandurang
+ * @since 1.0.2
+ */
+.wdmebbp-wrapper-login-req a{
+    float: right;
+}
+
+
+
+/**
+ * view associated course and add quantity buttons
+ * @since 1.1.0
+ */
+
+#wdm-course-button{
+    display: inline-block;
+}
+
+.enroll-student-page-button{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.enroll-button-grid{
+    display: inline-block;
+}
+
+#add-quantity-popup{
+    display: none;
+}
+
+#mucp-cart-notice{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(33, 150, 243, 0.13);
+    color: #2196F3;
+}
+
+.wdm-bulk-purchase-message {
+    overflow-x: hidden;
+    font-size: 11px;
+    color: #555;
+    padding: .4em;
+    color: #fff;
+    background: #888;
+    border-radius: 10px;    
+}
+.wdm-enrol-form-input{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.enroll_user-pop-up{
+    padding: 15px;
+}
+.ui-widget-content {
+    min-width: 40%;
+}
+#enroll_user-pop-up{
+    padding: 20px 15px;
+}
+.wdm-diff-prod-qty-error{
+    padding: 10px;
+    background-color: rgba(251, 0, 0, 0.25);
+    border: 1px solid red;
+    color: red;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.wdm-diff-prod-qty-success{
+    padding: 10px;
+    color: green;
+    border: 2px solid #00ff22;
+    background: rgba(10, 255, 0, 0.23);
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 100%;
+}
+#wdm-diff-prod-qty-success-msg,
+#wdm-diff-prod-qty-error-msg{
+    margin-left: 10px;
+}
+.fa-check-circle:before {
+    font-size: 1.7em;
+    color: green;
+}
+.wdm-hide{
+    display: none;
+}
+#mucp-cart-group-checkbox{
+    height: 20px;
+    width: 20px;
+}
+.wdm-cartp-group-chk-box{
+    display: inline-flex;
+    width: 100%;
+    /*background: teal;*/
+    padding: 5px;
+}
+.wdm-cartp-group-chk-box label{
+    /*color: white;*/
+    clear: both;
+    margin: 0px;
+}

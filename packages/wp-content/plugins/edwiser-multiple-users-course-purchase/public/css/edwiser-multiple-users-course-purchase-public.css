@@ -1,0 +1,651 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#btn_add_new , #btn_enroll,#wdm_user_csv_upload{
+    margin: 1% !important;
+    width: 48%;
+}
+
+/* .wdm_button{
+    list-style-type:none !important;
+    border: 2px solid #000;
+    border-radius: 2%;
+    padding: 2%;
+}*/
+
+#enroll-user-form-csv .wdm_new_user {
+    background: #E5E4E4;
+    padding-top:2%;
+    padding-bottom: 2%;
+    border: 1px solid #999;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+#enroll-user-form-csv .wdm_remove_user {
+    margin-top: -10px;
+    padding: 5px;
+}
+
+.wdm_remove_user > label{
+    padding-left: 10px;
+}
+
+.wdm_new_user li{
+    list-style-type:none !important;
+}
+.wdm_remove_user {
+    float: right;
+    padding-top: 10px;
+}
+
+.fa-times {
+    color: #585858;
+}
+.fa-times:hover {
+    color: black;
+    cursor: pointer;
+    border: 1px solid #337ab7;
+}
+
+#wdm_eb_message > p{  margin: 0 0px 1em ;
+                      padding: 5px;
+                      font-size: .92em;
+                      color: #777;
+                      background-color: #f7f6f7;
+                      border-left: 3px solid #a46497;
+
+}
+
+.wdm_error_message{
+    border-left-color: red !important;
+}
+
+
+#wdm_csv_link{
+    text-decoration: none !important;
+}
+
+form#wdm_eb_enroll_user li {
+    list-style-type: none !important;
+}
+.wdm_error_message{
+    border-left: 5px solid red;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    background-color: #ffffff;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.wdm_enroll_warning_message{
+    border-left: 5px solid #ff5722;
+    border-top: 1px solid #ff5722;
+    border-right: 1px solid #ff5722;
+    border-bottom: 1px solid #ff5722;
+    background-color: #ffffff;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.wdm_success_message{
+    border-left: 5px solid #4caf50;
+    border-top: 1px solid #00ff00;
+    border-right: 1px solid #00ff00;
+    border-bottom: 1px solid #00ff00;
+    background-color: #ffffff;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.wdm_user_list  ol {
+    margin: 0px !important;
+}
+.wdm_user_list ol li {
+    padding: 5px;
+    margin-left: 35px;
+    color: #000000;
+}
+.wdm_enroll_warning_message_lable{
+    color: #000000;
+    font-weight: bold;
+}
+#wdm_eb_enroll_user_page{
+    border: 1px solid #DDDDDD;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.fa-times-circle{
+    color: #717171;
+    cursor: pointer;
+    margin-top: 0.1em;
+}
+.fa-times-circle:before {
+    font-size: 20px;
+}
+.fa-times-circle:hover{
+    color: red;
+}
+.wdm_success_msg_dismiss, .wdm_enroll_warning_msg_dismiss, .wdm_error_msg_dismiss,.wdm_select_course_msg_dismiss{
+    padding-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.loader {
+    display: block;
+    z-index: 999;
+    border: 5px solid rgba(33, 150, 243, 0.19);
+    position: fixed;
+    border-radius: 50%;
+    border-top: 5px solid #2196f3;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin-left: 10px;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#wdm_eb_enroll_user_page hr{
+    border-bottom: 1px solid #dddddd;
+    margin: 25px 0px;
+}
+
+
+/**
+ * enroll user css
+ * @since 1.1.0
+ */
+
+
+#enroll-user-form-pop-up{
+    display: none;
+}
+.addnewuser-left{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 35%;
+}
+
+.addnewuser-right{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 64%;
+}
+.wdm_select_course_msg{
+    border-left: 5px solid #cc0000;
+    border-top: 1px solid #ff3333;
+    border-right: 1px solid #ff3333;
+    border-bottom: 1px solid #ff3333;
+    background-color: #ffb3b3;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#enroll-new-user{
+    margin-left: 1%;
+    margin-bottom: 5px;
+}
+
+#add-quantity-msg > p{
+    border-left: 5px solid red;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    background-color: #ffffff;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.pop-up-loader{
+    position: absolute;
+    z-index: 999;
+    margin-left: 44%;
+    bottom: 41%;
+}
+
+#popup-loding-icon{
+    display: none;
+}
+
+
+.enroll-student-page-button{
+    padding: 8px 25px;
+}
+
+.role-drop-down{
+    width: 60%;
+}
+
+.edit-enrolled-user{
+    padding: 6px 23px;
+}
+
+.eb-lading-parent-wrap{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.73);
+    z-index: 999;
+}
+
+.eb-loader-progsessing-anim {
+    border: 5px solid #ffffff;
+    border-top: 5px solid #07a3c3;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#add-quantity-inp{
+    margin-top: 1em;
+}
+
+#add-quantity-table tbody > tr:hover{
+    border-bottom: 1px solid #003f98;
+    background: #c4dbf9 !important;
+    box-shadow: 0 0 5px #99c2f9;
+}
+
+#add-quantity-table tr{
+    border-bottom: 1px solid #008080;
+    border: 0;
+}
+#add-quantity-table tbody >tr:nth-child(even) {
+    background-color: #EFEFEF;
+}
+
+#add-quantity-table thead,
+#add-quantity-table tfoot {
+    background: #e2e2e2;
+}
+
+.wdmProductName {
+    list-style-type: none;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+
+.wdmProductName li{
+    padding-bottom: 0.5em;
+}
+
+.wdmProductName ul{
+    list-style-type: none;
+    margin:0;
+    padding-left: 0;
+}
+.wdm_selected_products {
+    background: #fff;
+    padding: 2em;
+    font-size:1em;
+    border: 1px solid #555;
+    width: 18px;
+    height: 18px;
+    margin: 0px 5px;
+}
+
+/**
+* Scrollbar custom style start
+*/
+.wdm-dialog-scroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.wdm-dialog-scroll::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.wdm-dialog-scroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #003d4c;
+}
+
+.wdm-dialog-scroll::-webkit-scrollbar-thumb:active{
+    background-color: #015042;
+    border: 1px solid #024e48;
+} 
+/**
+* Scrollbar custom style end
+*/
+
+.wdm-add-prod_qty{
+    display: table;
+    padding: 0.7em;
+}
+.wdm-item-price{
+    display: inline-flex;
+}
+
+/**
+* Dialog table style start
+*/
+#add-quantity-table th:last-child {
+    padding-right: 10px;
+}
+#add-quantity-table th:first-child,
+#add-quantity-table td:first-child{
+    padding-left: 10px;
+}
+#add-quantity-table tbody {
+    max-height: 40%;
+    overflow: auto;    
+}
+#add-quantity-table tbody td {
+    margin: auto;
+}
+#add-quantity-table tfoot td {
+    margin: auto;
+    width: 14%;
+}
+
+#add-quantity-table {
+    border: 0;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+#add-quantity-table tr {
+    display: flex;
+
+}
+
+#add-quantity-table thead th {
+    flex: 1 auto;
+    display: block;
+    border: 0px;
+    border-bottom: 1px solid #003f98;
+}
+
+#add-quantity-table tbody {
+    display: block;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 250px;
+}
+#add-quantity-table td{
+    border: 0px;
+}
+/*
+* Add style for the new products table columns in the popup
+*/
+.wdm-more-prod-tbl tbody > tr > td:nth-child(1),
+.wdm-more-prod-tbl tbody > tr > td:nth-child(4),
+.wdm-more-prod-tbl tbody > tr > td:nth-child(6){
+    width: 8%;
+}
+
+.wdm-more-prod-tbl tbody > tr > td:nth-child(2) {
+    width: 28%;
+}
+.wdm-more-prod-tbl tbody > tr > td:nth-child(3),
+.wdm-more-prod-tbl tbody > tr > td:nth-child(7){
+    width: 15%;
+}
+
+.wdm-more-prod-tbl tbody > tr > td:nth-child(5) {
+    width: 17%;
+}
+
+/*
+* Add style for the quantity table columns in the popup 
+*/
+.wdm-more-qty-tbl tbody > tr > td:nth-child(4),
+.wdm-more-qty-tbl tbody > tr > td:nth-child(1){
+    width: 7%;
+}
+
+.wdm-more-qty-tbl tbody > tr > td:nth-child(6){
+    width: 5%;
+}
+
+.wdm-more-qty-tbl tbody > tr > td:nth-child(2) {
+    width: 28%;
+}
+.wdm-more-qty-tbl tbody > tr > td:nth-child(3),
+.wdm-more-qty-tbl tbody > tr > td:nth-child(7){
+    width: 11%;
+}
+
+.wdm-more-qty-tbl tbody > tr > td:nth-child(5) {
+    width: 15%;
+}
+.wdm-tbl-sel-row{
+    background: #c4dbf9 !important;
+}
+/**
+* Dialog table style end
+*/
+
+/**
+* Jquery Dialog box style override start
+*/
+
+.wdm-enroll-stud-page-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: 0px;
+    background: none;
+    overflow: auto;
+}
+.wdm-enroll-stud-page-csv-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: 1em;
+    background: none;
+    overflow: auto;
+}
+#wdm_new_prod_qty{
+    width: 100px;
+}
+
+.wdm-enroll-stud-page-dialog .ui-dialog-titlebar {
+    background: #04549e;
+    z-index: 9999;
+    color: white;
+}
+.wdm-enroll-stud-page-dialog .ui-widget-header {
+    border: 0;
+    border-bottom: 1px solid #051df5;
+}
+
+.wdm-enroll-stud-page-dialog {
+    border: 0;
+    padding: 0px;
+}
+
+.wdm-enroll-stud-page-dialog{
+    border: 2px solid #001963 !important;
+}
+
+.wdm-enroll-stud-page-dialog .ui-dialog-buttonpane{
+    border-radius:  0px 0px 0px 0px;
+    margin-top: 0px;
+}
+
+.wdm-enroll-stud-page-dialog .ui-dialog-buttonpane {
+    border-top: 1px solid #0045bb;
+    margin-top: 0px;
+}
+
+.wdm-view-courses-button .ui-dialog-buttonpane {
+    border-top: 1px solid #003f98;
+    margin-top: 0px;
+    text-align: center;
+}
+.wdm-view-courses-button .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float: none;
+}
+
+.wdm-enroll-stud-page-dialog >.ui-button {
+    padding: 0.5em 1em;
+}
+/**
+* Jquery Dialog box style override start
+*/
+
+.wdm-coho-asso-corses{
+    padding: 20px 40px;
+}
+.wdm-diff-prod-qty{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(251, 0, 0, 0.25);
+    border: 1px solid red;
+    color: #f32121;
+}
+.wdm-hide{
+    display: none;
+}
+.wdm-coho-asso-corses{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.wdm-error-message-dialog > .ui-dialog-buttonpane,
+.wdm-error-message-dialog > .ui-dialog-titlebar {
+    background: #CA2121;
+    z-index: 9999;
+    color: white;
+}
+
+.wdm-error-message-dialog > .ui-widget-header {
+    border: 0;
+    border-bottom: 1px solid #225EB8;
+    color: white;
+}
+.ui-corner-all{
+    border-radius: 0px;
+}
+.wdm-error-message-dialog > .ui-dialog .ui-dialog-buttonpane{
+    border-radius:  0px;
+}
+.wdm-error-message-dialog > .ui-dialog-buttonpane {
+    border-top: 1px solid red;
+    margin-top: 0px;
+    text-align: center;
+}
+.wdm-error-message-dialog {
+    border: 1px solid red !important;
+}
+.ui-state-error{
+    text-align: center;
+    padding-left: 1em;
+    width: 100%;
+    display: table;
+}
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error{
+    background: white;
+}
+.ui-state-error p{
+    margin-top: 5%;
+    display: table-cell;
+    padding: 2em;
+}
+.fa-exclamation-triangle{
+    content: "\f071";
+    color: #cb2121;
+    font-size: 1.5em;
+    display: table-cell;
+}
+.wdm-dialog-ok-button{
+    /*    color: #FFF !important;
+        background-color: #054682 !important;
+        border-color: #054078 !important;*/
+}
+.wdm-dialog-cancel-button{
+    color: #FFF !important;
+    background-color: #CA2121 !important;
+    border-color: #CA2121 !important;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.wdm-dialog-cancel-button:hover{
+    color: #FFF !important;
+    background-color: #9e1a1a !important;
+    border-color: #951818 !important;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.wdm-dialog-enroll-button,
+.wdm-dialog-checkout-button{
+    color: #FFF !important;
+    background-color: #04549e !important;
+    border-color: #054078 !important;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.wdm-dialog-enroll-button:hover,
+.wdm-dialog-checkout-button:hover{
+    color: #FFF !important;
+    background-color: #054682 !important;
+    border-color: #054078 !important;
+}
+.wdm-dialog-edit-usr-button{
+
+}
+
+.wdm-error-message-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{ 
+    float: none !important;
+}
+.wdm-error-message-dialog .ui-dialog-buttonpane{ 
+    padding: 0px;
+}
+.wdm-error-message-dialog .ui-dialog-buttonpane button{ 
+    padding: .5em 1em;
+}
+
+.wdm-enroll-stud-page-dialog {
+    overflow: hidden;;
+    position: fixed;
+    z-index: 4001;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0,0,0,.8);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.8);
+}
+.enroll_user-row .wdm-enrol-form-input:focus,
+.enroll_user-row .wdm-enrol-form-input:active{
+    border-color: #05ccc0;
+}
