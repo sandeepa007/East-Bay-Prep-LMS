@@ -9,8 +9,8 @@ $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'lms-east-bay';
 $CFG->dbuser    = 'root';
-$CFG->dbpass    = 'veblogy';
-$CFG->prefix    = 'mdl_';
+$CFG->dbpass    = 'khateam123';
+$CFG->prefix    = 'ebp_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
@@ -18,10 +18,10 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_bin',
 );
 
-$CFG->wwwroot   = 'http://219.91.251.250/lms';
+$CFG->wwwroot   = 'http://13.57.1.117';
 $CFG->dataroot  = '/var/www/lmsdata';
 $CFG->admin     = 'admin';
-
+$CFG->usepaypalsandbox = 'www.sandbox.paypal.com';
 $CFG->directorypermissions = 0777;
 
 require_once(__DIR__ . '/lib/setup.php');
