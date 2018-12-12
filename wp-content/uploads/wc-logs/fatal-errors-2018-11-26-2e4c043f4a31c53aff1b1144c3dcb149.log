@@ -1,0 +1,87 @@
+2018-11-26T10:04:48+00:00 CRITICAL Uncaught Error: Call to undefined function uwcs_tranfer_funds() in /var/www/html/packages/wp-content/themes/salient/functions.php:6827
+Stack trace:
+#0 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#6 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Data::save(6124, Object(WP_Post))
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filter in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6827
+
+2018-11-26T10:04:51+00:00 CRITICAL Uncaught Error: Call to undefined function uwcs_tranfer_funds() in /var/www/html/packages/wp-content/themes/salient/functions.php:6827
+Stack trace:
+#0 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#6 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Data::save(6124, Object(WP_Post))
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filter in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6827
+
+2018-11-26T10:06:43+00:00 CRITICAL Uncaught Error: Call to undefined function uwcs_tranfer_funds() in /var/www/html/packages/wp-content/themes/salient/functions.php:6825
+Stack trace:
+#0 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#6 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Data::save(6124, Object(WP_Post))
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filter in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6825
+
+2018-11-26T10:07:30+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6827
+
+2018-11-26T10:07:33+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6827
+
+2018-11-26T10:07:59+00:00 CRITICAL syntax error, unexpected '$order' (T_VARIABLE) in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6825
+
+2018-11-26T10:08:10+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6828
+
+2018-11-26T10:08:58+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6828
+
+2018-11-26T10:15:20+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on null in /var/www/html/packages/wp-content/themes/salient/functions.php:6835
+Stack trace:
+#0 /var/www/html/packages/wp-content/themes/salient/functions.php(6826): wpuw_add_credits_to_user_account_custom(38, '50.00')
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#2 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#6 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_B in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6835
+
+2018-11-26T10:15:23+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on null in /var/www/html/packages/wp-content/themes/salient/functions.php:6835
+Stack trace:
+#0 /var/www/html/packages/wp-content/themes/salient/functions.php(6826): wpuw_add_credits_to_user_account_custom(38, '50.00')
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#2 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#6 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_B in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6835
+
+2018-11-26T10:15:37+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on null in /var/www/html/packages/wp-content/themes/salient/functions.php:6835
+Stack trace:
+#0 /var/www/html/packages/wp-content/themes/salient/functions.php(6826): wpuw_add_credits_to_user_account_custom(38, '50.00')
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#2 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#6 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_B in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6835
+
+2018-11-26T10:15:40+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on null in /var/www/html/packages/wp-content/themes/salient/functions.php:6835
+Stack trace:
+#0 /var/www/html/packages/wp-content/themes/salient/functions.php(6826): wpuw_add_credits_to_user_account_custom(38, '50.00')
+#1 /var/www/html/packages/wp-includes/class-wp-hook.php(288): wc_add_credits_to_wallet(6124)
+#2 /var/www/html/packages/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/packages/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(350): do_action('woocommerce_ord...', 6124, Object(WC_Order))
+#5 /var/www/html/packages/wp-content/plugins/woocommerce/includes/class-wc-order.php(230): WC_Order->status_transition()
+#6 /var/www/html/packages/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/packages/wp-includes/class-wp-hook.php(286): WC_Meta_B in /var/www/html/packages/wp-content/themes/salient/functions.php on line 6835
+

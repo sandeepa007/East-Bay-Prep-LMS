@@ -1,0 +1,52 @@
+div#mep_event_fbc_r ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    border:1px solid #ddd;
+        margin: 0 0 5px 0;
+}
+
+div#mep_event_fbc_r ul li {
+    display: inline-block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    text-align: center;
+}
+li.mep-fbc-label input, li.mep-fbc-id input {
+    width: 230px!important;
+    height: 30px;
+}
+
+li.mep-fbc-type select {
+    width: 180px!important;
+    padding: 0;
+    height: 30px;
+    display: block;
+}
+
+li.mep-fbc-req {
+    /*padding-top: 8px!important;*/
+}
+
+li.mep-fbc-remove {
+    text-align: right!important;
+}
+
+li.mep-fbc-remove {}
+
+li.mep-fbc-remove a {
+    float: right!important;
+    font-size: 15px!important;
+    border-radius: 0!important;
+    color: red!important;
+    border-color: red!important;
+    padding: 0 5px!important;
+    margin-top: 3px!important;
+    height: 26px!important;
+    margin-left: 10px!important;
+}
+input#dropdown-values {
+    /*display: none;*/
+}

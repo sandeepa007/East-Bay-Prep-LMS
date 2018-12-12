@@ -1,0 +1,202 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template theme_remui/footer
+
+    footer template
+}}
+
+<!-- Footer -->
+<footer class="site-footer bg-primary-600 grey-100">
+    {{# footerdata }}
+    <div class="container">
+        <div class="row">
+           {{# sections }}
+            <div class="{{ classes }} text-xs-center">
+                <div class="py-30 px-10">
+                    <h4 class="card-title mt-10 grey-100">{{ title }}</h4>
+                    <p class="card-text">{{{ content }}}</p>
+                </div>
+            </div>
+            {{/ sections }}
+
+            {{# social }}
+            <div class="{{ classes }} text-xs-center">
+                <div class="py-30 px-10">
+                    <h4 class="card-title mt-10 grey-100">{{# str }} followus, theme_remui {{/ str }}</h4>
+                    <p class="card-text">
+                        {{# facebook }}
+                            <a href="{{ facebook }}" class="btn btn-icon btn-round social-facebook m-5"><i class="icon fa-facebook" aria-hidden="true"></i></a>
+                        {{/ facebook }}
+                        {{# twitter }}
+                            <a href="{{ twitter }}" class="btn btn-icon btn-round social-twitter m-5"><i class="icon fa-twitter" aria-hidden="true"></i></a>
+                        {{/ twitter }}
+                        {{# linkedin }}
+                            <a href="{{ linkedin }}" class="btn btn-icon btn-round social-linkedin m-5"><i class="icon fa-linkedin" aria-hidden="true"></i></a>
+                        {{/ linkedin }}
+                        {{# gplus }}
+                            <a href="{{ gplus }}" class="btn btn-icon btn-round social-google-plus m-5"><i class="icon fa-google-plus" aria-hidden="true"></i></a>
+                        {{/ gplus }}
+                        {{# instagram }}
+                            <a href="{{ instagram }}" class="btn btn-icon btn-round social-instagram m-5"><i class="icon fa-instagram" aria-hidden="true"></i></a>
+                        {{/ instagram }}
+                        {{# youtube }}
+                            <a href="{{ youtube }}" class="btn btn-icon btn-round social-youtube m-5"><i class="icon fa-youtube" aria-hidden="true"></i></a>
+                        {{/ youtube }}
+                        {{# pinterest }}
+                            <a href="{{ pinterest }}" class="btn btn-icon btn-round social-pinterest m-5"><i class="icon fa-pinterest" aria-hidden="true"></i></a>
+                        {{/ pinterest }}
+                    </p>
+                </div>
+            </div>
+            {{/ social }}
+        </div>
+    </div>
+    
+    <!-- bottom sections -->
+    <div class="footer-bottom">
+        <div class="site-footer-legal pt-5">
+            <a href="{{ bottomlink }}">{{{ bottomtext }}}</a>
+        </div>
+        
+        <div class="site-footer-right pt-5">
+            {{# poweredby }}
+            <a href="https://edwiser.org/remui/" rel="nofollow" target="_blank" >{{# str }} poweredby, theme_remui {{/ str }}</a>
+            {{/ poweredby }}
+            
+            {{{ output.standard_footer_html }}}
+            <div id="course-footer">
+                {{{ output.course_footer }}}
+            </div>
+        </div>
+    </div>
+    {{/ footerdata }}
+
+    {{{ output.standard_end_of_body_html }}}
+
+{{#js}}
+require(['jquery','jqueryui'], function($,jqui) {
+    $("#page-mod-quiz-review .questionflagsaveform").hide();
+    $( document ).ready(function() {
+    //$(".que").hide();
+        $("#page-mod-quiz-attempt #responseform").before("<div id='khaloader'><h1>loading..</h1></div>");
+        
+
+        linkobj = $("#page-mod-quiz-attempt .content .qtext .glossary").first();
+        console.log(linkobj.length)
+        if(linkobj.length){
+            $(linkobj).parent().hide();
+            linktext = linkobj.attr("href");
+            linktext = linktext.replace('showentry', 'showentry_ajax'); 
+            console.log(linktext)
+            $.ajax({ 
+                type: 'GET', 
+                url: linktext,                         
+                success: function (data) { 
+                    //console.log(data.entries[0]['definition'])
+                   queobj = $(linkobj).closest('.que');
+                   console.log(queobj)
+                   $(queobj).find(".info").after("<div class='infopassage'>"+data.entries[0]['definition']+"</div>");
+                   $(".que").show();
+                   $("#page-mod-quiz-attempt").find("#khaloader").remove();
+                }
+            });
+        }else{
+            $("#page-mod-quiz-attempt .content").addClass("fullwidthcontent");
+            $(".que").show();
+            $("#page-mod-quiz-attempt").find("#khaloader").remove();
+        }
+
+        if($("#page-mod-quiz-review").length) {
+
+            //$(".answer .specificfeedback").hide();
+            
+            $(".que").each(function( index ) {
+                var specificfeedback = $(this).find(".answer").find(".specificfeedback");
+                if (specificfeedback.length)
+                {
+                    specificfeedback.hide();
+                    //console.log(specificfeedback)
+                    btn = $('<input />', {
+                        type  : 'button',
+                        value : 'Review',
+                        id    : 'btn_a',
+                        on    : {
+                            click: function() {
+                                console.log($(this).closest("div.content").find(".specificfeedback").toggle('slow'));
+                            }
+                        }
+                    });
+                    $(this).find(".content").append(btn);
+                    $("#page-mod-quiz-review .questionflagsaveform").show();
+                }
+
+            });
+            $("#page-mod-quiz-review .questionflagsaveform").show();
+        }
+        
+    });
+
+
+    $.getScript('http://219.91.251.250/lms/theme/remui/javascript/jquery.steps.js', function(){
+     /** For step wise **/
+
+        mysteps = $(".step-basic").steps({
+        headerTag: "h3",
+        bodyTag: "div",
+        transitionEffect: "slideLeft",
+        autoFocus: true,
+        labels: {
+            current: "current step:",
+            pagination: "Pagination",
+            finish: "Confirm",
+            next: "Next",
+            previous: "Previous",
+            loading: "Loading ..."
+        },
+        onFinished: function (event, currentIndex)
+        {
+            var myid = $(this).closest('.que').attr('id');
+            $( function() {
+            dialog = $( ".dialog-q1" ).dialog({
+                buttons: {
+                    "Close Question (For Now)": function() {
+                    //alert(myid)
+                        var myid2 = $('#'+myid).children('.info').children('.questionflag').attr('id');
+                        $('#'+myid2).trigger( "click" );
+                        $('#'+myid2).appendTo('#'+myid).children('.content');
+                        dialog.dialog("close");
+                    },
+                    "I'm Done Reviewing This Question": function() {
+                       dialog.dialog("close");
+                    }
+                }
+            });
+          });
+          
+        }
+    });
+    
+
+
+  });
+
+
+    
+});
+{{/js}}
+</footer>

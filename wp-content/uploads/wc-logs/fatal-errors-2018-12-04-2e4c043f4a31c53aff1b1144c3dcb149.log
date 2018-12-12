@@ -1,0 +1,98 @@
+2018-12-04T10:32:00+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php:56
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(379): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/user-or...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-orders', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\wisdmlab in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 56
+
+2018-12-04T10:35:19+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 71
+
+2018-12-04T10:35:22+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 71
+
+2018-12-04T10:35:23+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 71
+
+2018-12-04T10:35:48+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 73
+
+2018-12-04T10:36:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php:63
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(379): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/user-or...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-orders', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\wisdmlab in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 63
+
+2018-12-04T10:37:06+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 71
+
+2018-12-04T10:37:29+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php:63
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(379): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/user-or...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-orders', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\wisdmlab in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 63
+
+2018-12-04T10:38:19+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php:63
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(379): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/user-or...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-orders', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\wisdmlab in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 63
+
+2018-12-04T10:39:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php:63
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(379): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/user-or...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-orders', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\wisdmlab in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 63
+
+2018-12-04T10:41:31+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 66
+
+2018-12-04T10:41:49+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 68
+
+2018-12-04T10:42:05+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-orders.php on line 68
+
+2018-12-04T12:30:37+00:00 CRITICAL syntax error, unexpected '$item_name' (T_VARIABLE) in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 43
+
+2018-12-04T12:30:51+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_the_title() in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(398): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/my-sess...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-my-sessions', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\w in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 43
+
+2018-12-04T12:31:16+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_the_title() in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(398): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/my-sess...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-my-sessions', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\w in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 44
+
+2018-12-04T12:31:50+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_the_title() in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(398): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/my-sess...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-my-sessions', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\w in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 45
+
+2018-12-04T12:32:22+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_the_title() in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(398): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/my-sess...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-my-sessions', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\w in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 44
+
+2018-12-04T12:33:57+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_the_title() in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include()
+#1 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(398): app\wisdmlabs\edwiserBridge\EbTemplateLoader->wpGetTemplate('account/my-sess...', Array)
+#2 /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-account.php(43): app\wisdmlabs\edwiserBridge\EbShortcodeUserAccount->getUserAccountContent('eb-my-sessions', Array, 15, '<img alt='' src...', Object(WP_User), Array, Array, Object(app\wisdmlabs\edwiserBridge\EbTemplateLoader))
+#3 /var/www/html/wp-content/plugins/edwiser-bridge/public/class-eb-template-loader.php(155): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/edwiser-bridge/public/shortcodes/class-eb-shortcode-user-account.php(119): app\w in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/my-sessions.php on line 45
+

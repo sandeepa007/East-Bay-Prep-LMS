@@ -1,0 +1,4 @@
+2018-12-05T09:23:34+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ',' or ')' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-data.php on line 17
+
+2018-12-05T09:23:36+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ',' or ')' in /var/www/html/wp-content/plugins/edwiser-bridge/public/templates/account/user-data.php on line 17
+

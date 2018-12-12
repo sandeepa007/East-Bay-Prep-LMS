@@ -1,0 +1,31 @@
+{{#hiddensection}}
+    {{{ hiddensection }}}
+{{/hiddensection}}
+{{^hiddensection}}
+    <div class="col-md-12 p-0 wdm-card-section">
+        <div class="card-section-leftnav {{#leftnav}}btn btn-primary{{/leftnav}}">
+            {{{ leftnav }}}
+        </div>
+        <div class="card-section-rightnav {{#rightnav}}btn btn-primary{{/rightnav}}">
+            {{{ rightnav }}}
+        </div>
+    </div>
+    <div class="col-md-12 my-20">
+        <h2 class="single-section-title m-0 {{#hidden}}text-muted{{/hidden}}">{{{ title }}}</h2>
+        <p>{{{ summary}}}</p>
+    </div>
+    <ul class="remui-format-list bg-white py-20">
+        <li id="section-{{section}}" class="section">
+            <div class="left side">
+                {{{ leftside }}}
+            </div>
+            <div class="right side">
+                {{{ optionmenu }}}
+            </div>
+            <div class="content">
+                {{{ activities }}}
+            </div>
+            {{{ addnewactivity }}}
+        </li>
+    </ul>
+{{/hiddensection}}

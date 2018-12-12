@@ -1,0 +1,209 @@
+2018-11-29T13:20:14+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2095): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(344): wooco in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T13:20:17+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/ww in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T13:20:18+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/ww in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T13:20:30+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/ww in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T13:20:37+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/ww in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T13:20:51+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /var/www/html/wp-content/themes/salient-child/functions.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/www/h in /var/www/html/wp-content/themes/salient-child/functions.php on line 44
+
+2018-11-29T13:20:52+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /var/www/html/wp-content/themes/salient-child/functions.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/www/h in /var/www/html/wp-content/themes/salient-child/functions.php on line 44
+
+2018-11-29T13:20:54+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /var/www/html/wp-content/themes/salient-child/functions.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(64): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): wc_template_redirect('')
+#8 /var/www/h in /var/www/html/wp-content/themes/salient-child/functions.php on line 44
+
+2018-11-29T13:26:39+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in /var/www/html/wp-content/themes/salient-child/functions.php on line 46
+
+2018-11-29T13:26:41+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in /var/www/html/wp-content/themes/salient-child/functions.php on line 46
+
+2018-11-29T14:06:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:06:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:06:32+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:06:44+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:07:02+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:07:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:08:38+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:08:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:09:01+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+
+2018-11-29T14:09:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/wp-content/themes/salient-child/functions.php:45
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): misha_remove_default_gateway(Array)
+#1 /var/www/html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(100): apply_filters('woocommerce_pay...', Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(687): WC_Payment_Gateways::instance()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(90): WooCommerce->payment_gateways()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Admin_Menus->settings_page_init in /var/www/html/wp-content/themes/salient-child/functions.php on line 45
+

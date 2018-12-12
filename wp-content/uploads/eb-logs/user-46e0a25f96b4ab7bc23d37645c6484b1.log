@@ -1,0 +1,1308 @@
+11-06-2018 @ 09:51:03 - Initiating course & category sync process....
+11-06-2018 @ 09:51:36 - Unenrolled user: 1 from course 14
+11-06-2018 @ 11:07:39 - Link Moodle User for User ID  2
+11-06-2018 @ 11:07:39 - Log from WooIntegration
+11-06-2018 @ 11:07:39 - User Object JSON Encoded : {"data":{"ID":"2","user_login":"rohanwp12","user_pass":"$P$B33tpoD0jo9AexpKiNEukwJtnW9ab40","user_nicename":"rohanwp12","user_email":"rohan+wp12@khacreation.com","user_url":"","user_registered":"2018-11-06 11:07:38","user_activation_key":"","user_status":"0","display_name":"rohanwp12"},"ID":2,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-06-2018 @ 11:07:39 - Start creating/updating moodle user, Updating: 0
+11-06-2018 @ 11:07:39 - Checking if username exists....
+11-06-2018 @ 11:08:41 - Check Line Items for Order ID - 5890
+11-06-2018 @ 11:08:41 - Courses IDs from Line Items  a:1:{i:0;s:2:"10";}
+11-06-2018 @ 11:08:42 - Check if User enrolled for Order ID - 5890
+11-06-2018 @ 11:08:42 - No User enrollment for Order ID - 5890
+11-06-2018 @ 11:09:34 - Check Line Items for Order ID - 5890
+11-06-2018 @ 11:09:34 - Courses IDs from Line Items  a:1:{i:0;s:2:"10";}
+11-06-2018 @ 11:09:59 - Associated moodle a/c found? :Yes, Moodle user ID is: 73
+11-06-2018 @ 11:09:59 - Course IDs: a:1:{i:0;s:2:"10";}
+11-06-2018 @ 11:09:59 - Respective moodle course IDs: a:1:{i:10;s:1:"3";}
+11-06-2018 @ 11:09:59 - 
+
+11-06-2018 @ 11:09:59 - Check Line Items for Order ID - 5890
+11-06-2018 @ 11:09:59 - Courses IDs from Line Items  a:1:{i:0;s:2:"10";}
+11-06-2018 @ 11:09:59 - Associated moodle a/c found? :Yes, Moodle user ID is: 73
+11-06-2018 @ 11:09:59 - Course IDs: a:1:{i:0;s:2:"10";}
+11-06-2018 @ 11:09:59 - Respective moodle course IDs: a:1:{i:10;s:1:"3";}
+11-06-2018 @ 11:09:59 - 
+
+11-06-2018 @ 11:09:59 - Enrollment response 0
+11-06-2018 @ 11:10:00 - Check Line Items for Order ID - 5890
+11-06-2018 @ 11:10:00 - Courses IDs from Line Items  a:1:{i:0;s:2:"10";}
+11-06-2018 @ 12:37:59 - Check if User enrolled for Order ID - 5891
+11-06-2018 @ 12:37:59 - No User enrollment for Order ID - 5891
+11-06-2018 @ 12:38:14 - Check Line Items for Order ID - 5891
+11-06-2018 @ 12:38:14 - Courses IDs from Line Items  a:0:{}
+11-06-2018 @ 12:48:12 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-06-2018 @ 12:48:12 - Course IDs: a:0:{}
+11-06-2018 @ 12:48:12 - Respective moodle course IDs: a:0:{}
+11-06-2018 @ 12:48:12 - 
+
+11-06-2018 @ 12:48:12 - Check Line Items for Order ID - 5891
+11-06-2018 @ 12:48:12 - Courses IDs from Line Items  a:0:{}
+11-12-2018 @ 05:16:29 - Initiating course & category sync process....
+11-12-2018 @ 05:16:31 - Initiating course & category sync process....
+11-12-2018 @ 05:17:04 - Unenrolled user: 1 from course 13
+11-12-2018 @ 06:03:58 - Check if User enrolled for Order ID - 5893
+11-12-2018 @ 06:03:58 - No User enrollment for Order ID - 5893
+11-12-2018 @ 06:04:02 - Check Line Items for Order ID - 5893
+11-12-2018 @ 06:04:02 - Courses IDs from Line Items  a:0:{}
+11-12-2018 @ 07:46:42 - Check Line Items for Order ID - 5893
+11-12-2018 @ 07:46:42 - Courses IDs from Line Items  a:0:{}
+11-12-2018 @ 08:49:13 - Initiating course & category sync process....
+11-12-2018 @ 08:49:24 - Initiating course & category sync process....
+11-12-2018 @ 09:57:36 - Initiating course & category sync process....
+11-12-2018 @ 10:16:46 - Link Moodle User for User ID  1
+11-12-2018 @ 10:16:46 - Log from WooIntegration
+11-12-2018 @ 10:16:46 - User Object JSON Encoded : {"data":{"ID":"1","user_login":"khateam","user_pass":"$P$BQWZsyTIkkjEwAjiej01kK\/83qI\/.n1","user_nicename":"khateam","user_email":"manoj@khacreation.com","user_url":"","user_registered":"2018-10-31 10:34:21","user_activation_key":"","user_status":"0","display_name":"khateam"},"ID":1,"caps":{"administrator":true},"cap_key":"wp_capabilities","roles":["administrator"],"allcaps":{"switch_themes":true,"edit_themes":true,"activate_plugins":true,"edit_plugins":true,"edit_users":true,"edit_files":true,"manage_options":true,"moderate_comments":true,"manage_categories":true,"manage_links":true,"upload_files":true,"import":true,"unfiltered_html":true,"edit_posts":true,"edit_others_posts":true,"edit_published_posts":true,"publish_posts":true,"edit_pages":true,"read":true,"level_10":true,"level_9":true,"level_8":true,"level_7":true,"level_6":true,"level_5":true,"level_4":true,"level_3":true,"level_2":true,"level_1":true,"level_0":true,"edit_others_pages":true,"edit_published_pages":true,"publish_pages":true,"delete_pages":true,"delete_others_pages":true,"delete_published_pages":true,"delete_posts":true,"delete_others_posts":true,"delete_published_posts":true,"delete_private_posts":true,"edit_private_posts":true,"read_private_posts":true,"delete_private_pages":true,"edit_private_pages":true,"read_private_pages":true,"delete_users":true,"create_users":true,"unfiltered_upload":true,"edit_dashboard":true,"update_plugins":true,"delete_plugins":true,"install_plugins":true,"update_themes":true,"install_themes":true,"update_core":true,"list_users":true,"remove_users":true,"promote_users":true,"edit_theme_options":true,"delete_themes":true,"export":true,"manage_woocommerce":true,"view_woocommerce_reports":true,"edit_product":true,"read_product":true,"delete_product":true,"edit_products":true,"edit_others_products":true,"publish_products":true,"read_private_products":true,"delete_products":true,"delete_private_products":true,"delete_published_products":true,"delete_others_products":true,"edit_private_products":true,"edit_published_products":true,"manage_product_terms":true,"edit_product_terms":true,"delete_product_terms":true,"assign_product_terms":true,"edit_shop_order":true,"read_shop_order":true,"delete_shop_order":true,"edit_shop_orders":true,"edit_others_shop_orders":true,"publish_shop_orders":true,"read_private_shop_orders":true,"delete_shop_orders":true,"delete_private_shop_orders":true,"delete_published_shop_orders":true,"delete_others_shop_orders":true,"edit_private_shop_orders":true,"edit_published_shop_orders":true,"manage_shop_order_terms":true,"edit_shop_order_terms":true,"delete_shop_order_terms":true,"assign_shop_order_terms":true,"edit_shop_coupon":true,"read_shop_coupon":true,"delete_shop_coupon":true,"edit_shop_coupons":true,"edit_others_shop_coupons":true,"publish_shop_coupons":true,"read_private_shop_coupons":true,"delete_shop_coupons":true,"delete_private_shop_coupons":true,"delete_published_shop_coupons":true,"delete_others_shop_coupons":true,"edit_private_shop_coupons":true,"edit_published_shop_coupons":true,"manage_shop_coupon_terms":true,"edit_shop_coupon_terms":true,"delete_shop_coupon_terms":true,"assign_shop_coupon_terms":true,"administrator":true},"filter":null}
+11-12-2018 @ 10:17:28 - Check Line Items for Order ID - 5990
+11-12-2018 @ 10:17:28 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:17:29 - Check if User enrolled for Order ID - 5990
+11-12-2018 @ 10:17:29 - No User enrollment for Order ID - 5990
+11-12-2018 @ 10:18:52 - Check Line Items for Order ID - 5990
+11-12-2018 @ 10:18:52 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:19:12 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-12-2018 @ 10:19:12 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:19:12 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-12-2018 @ 10:19:12 - 
+
+11-12-2018 @ 10:19:12 - Check Line Items for Order ID - 5990
+11-12-2018 @ 10:19:12 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:19:12 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-12-2018 @ 10:19:12 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:19:12 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-12-2018 @ 10:19:12 - 
+
+11-12-2018 @ 10:19:12 - Enrollment response 0
+11-12-2018 @ 10:19:13 - Check Line Items for Order ID - 5990
+11-12-2018 @ 10:19:13 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 10:21:10 - Link Moodle User for User ID  1
+11-12-2018 @ 10:21:10 - Log from WooIntegration
+11-12-2018 @ 10:21:10 - User Object JSON Encoded : {"data":{"ID":"1","user_login":"khateam","user_pass":"$P$BQWZsyTIkkjEwAjiej01kK\/83qI\/.n1","user_nicename":"khateam","user_email":"manoj@khacreation.com","user_url":"","user_registered":"2018-10-31 10:34:21","user_activation_key":"","user_status":"0","display_name":"khateam"},"ID":1,"caps":{"administrator":true},"cap_key":"wp_capabilities","roles":["administrator"],"allcaps":{"switch_themes":true,"edit_themes":true,"activate_plugins":true,"edit_plugins":true,"edit_users":true,"edit_files":true,"manage_options":true,"moderate_comments":true,"manage_categories":true,"manage_links":true,"upload_files":true,"import":true,"unfiltered_html":true,"edit_posts":true,"edit_others_posts":true,"edit_published_posts":true,"publish_posts":true,"edit_pages":true,"read":true,"level_10":true,"level_9":true,"level_8":true,"level_7":true,"level_6":true,"level_5":true,"level_4":true,"level_3":true,"level_2":true,"level_1":true,"level_0":true,"edit_others_pages":true,"edit_published_pages":true,"publish_pages":true,"delete_pages":true,"delete_others_pages":true,"delete_published_pages":true,"delete_posts":true,"delete_others_posts":true,"delete_published_posts":true,"delete_private_posts":true,"edit_private_posts":true,"read_private_posts":true,"delete_private_pages":true,"edit_private_pages":true,"read_private_pages":true,"delete_users":true,"create_users":true,"unfiltered_upload":true,"edit_dashboard":true,"update_plugins":true,"delete_plugins":true,"install_plugins":true,"update_themes":true,"install_themes":true,"update_core":true,"list_users":true,"remove_users":true,"promote_users":true,"edit_theme_options":true,"delete_themes":true,"export":true,"manage_woocommerce":true,"view_woocommerce_reports":true,"edit_product":true,"read_product":true,"delete_product":true,"edit_products":true,"edit_others_products":true,"publish_products":true,"read_private_products":true,"delete_products":true,"delete_private_products":true,"delete_published_products":true,"delete_others_products":true,"edit_private_products":true,"edit_published_products":true,"manage_product_terms":true,"edit_product_terms":true,"delete_product_terms":true,"assign_product_terms":true,"edit_shop_order":true,"read_shop_order":true,"delete_shop_order":true,"edit_shop_orders":true,"edit_others_shop_orders":true,"publish_shop_orders":true,"read_private_shop_orders":true,"delete_shop_orders":true,"delete_private_shop_orders":true,"delete_published_shop_orders":true,"delete_others_shop_orders":true,"edit_private_shop_orders":true,"edit_published_shop_orders":true,"manage_shop_order_terms":true,"edit_shop_order_terms":true,"delete_shop_order_terms":true,"assign_shop_order_terms":true,"edit_shop_coupon":true,"read_shop_coupon":true,"delete_shop_coupon":true,"edit_shop_coupons":true,"edit_others_shop_coupons":true,"publish_shop_coupons":true,"read_private_shop_coupons":true,"delete_shop_coupons":true,"delete_private_shop_coupons":true,"delete_published_shop_coupons":true,"delete_others_shop_coupons":true,"edit_private_shop_coupons":true,"edit_published_shop_coupons":true,"manage_shop_coupon_terms":true,"edit_shop_coupon_terms":true,"delete_shop_coupon_terms":true,"assign_shop_coupon_terms":true,"administrator":true},"filter":null}
+11-12-2018 @ 10:21:10 - Check if User enrolled for Order ID - 5991
+11-12-2018 @ 10:21:10 - No User enrollment for Order ID - 5991
+11-12-2018 @ 10:21:11 - Check Line Items for Order ID - 5991
+11-12-2018 @ 10:21:11 - Courses IDs from Line Items  a:1:{i:0;s:4:"5955";}
+11-12-2018 @ 10:31:27 - Link Moodle User for User ID  3
+11-12-2018 @ 10:31:27 - Log from WooIntegration
+11-12-2018 @ 10:31:27 - User Object JSON Encoded : {"data":{"ID":"3","user_login":"manojfront","user_pass":"$P$BD7KzQ6JCKFT3t9qfqHu4ADUkrsKza0","user_nicename":"manojfront","user_email":"manoj+front@khacreation.com","user_url":"","user_registered":"2018-11-12 10:31:26","user_activation_key":"","user_status":"0","display_name":"manojfront"},"ID":3,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 10:31:27 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 10:31:27 - Checking if username exists....
+11-12-2018 @ 10:31:27 - Check if User enrolled for Order ID - 5992
+11-12-2018 @ 10:31:27 - No User enrollment for Order ID - 5992
+11-12-2018 @ 10:31:28 - Check Line Items for Order ID - 5992
+11-12-2018 @ 10:31:28 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:32:03 - Check Line Items for Order ID - 5992
+11-12-2018 @ 10:32:03 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:32:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 74
+11-12-2018 @ 10:32:09 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:32:09 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 10:32:09 - 
+
+11-12-2018 @ 10:32:09 - Check Line Items for Order ID - 5992
+11-12-2018 @ 10:32:09 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:32:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 74
+11-12-2018 @ 10:32:09 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:32:09 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 10:32:09 - 
+
+11-12-2018 @ 10:32:09 - Enrollment response 0
+11-12-2018 @ 10:32:10 - Check Line Items for Order ID - 5992
+11-12-2018 @ 10:32:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:52:07 - Link Moodle User for User ID  5
+11-12-2018 @ 10:52:07 - Log from WooIntegration
+11-12-2018 @ 10:52:07 - User Object JSON Encoded : {"data":{"ID":"5","user_login":"demo233","user_pass":"$P$BQbsJpjBDzxWSahGupxP\/2UoKUlR9W\/","user_nicename":"demo233","user_email":"demo233@gmail.com","user_url":"","user_registered":"2018-11-12 10:52:06","user_activation_key":"","user_status":"0","display_name":"demo233"},"ID":5,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 10:52:07 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 10:52:07 - Checking if username exists....
+11-12-2018 @ 10:52:07 - Check if User enrolled for Order ID - 5994
+11-12-2018 @ 10:52:07 - No User enrollment for Order ID - 5994
+11-12-2018 @ 10:52:08 - Check Line Items for Order ID - 5994
+11-12-2018 @ 10:52:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:52:50 - Check Line Items for Order ID - 5991
+11-12-2018 @ 10:52:50 - Courses IDs from Line Items  a:1:{i:0;s:4:"5955";}
+11-12-2018 @ 10:54:01 - Link Moodle User for User ID  5
+11-12-2018 @ 10:54:01 - Log from WooIntegration
+11-12-2018 @ 10:54:01 - User Object JSON Encoded : {"data":{"ID":"5","user_login":"demo233","user_pass":"$P$BQbsJpjBDzxWSahGupxP\/2UoKUlR9W\/","user_nicename":"demo233","user_email":"demo233@gmail.com","user_url":"","user_registered":"2018-11-12 10:52:06","user_activation_key":"","user_status":"0","display_name":"demo233"},"ID":5,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 10:54:01 - Check if User enrolled for Order ID - 5995
+11-12-2018 @ 10:54:01 - No User enrollment for Order ID - 5995
+11-12-2018 @ 10:54:03 - Check Line Items for Order ID - 5995
+11-12-2018 @ 10:54:03 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 10:56:00 - Associated moodle a/c found? :Yes, Moodle user ID is: 75
+11-12-2018 @ 10:56:00 - Course IDs: a:1:{i:0;s:4:"5932";}
+11-12-2018 @ 10:56:00 - Respective moodle course IDs: a:1:{i:5932;s:1:"2";}
+11-12-2018 @ 10:56:00 - 
+
+11-12-2018 @ 11:02:57 - Link Moodle User for User ID  6
+11-12-2018 @ 11:02:57 - Log from WooIntegration
+11-12-2018 @ 11:02:57 - User Object JSON Encoded : {"data":{"ID":"6","user_login":"sarang.nair","user_pass":"$P$BpMEA6Bu4r\/LzZD58WlnDa8tlAMyjj.","user_nicename":"sarang-nair","user_email":"sarang.nair@wisdmlabs.com","user_url":"","user_registered":"2018-11-12 11:02:57","user_activation_key":"","user_status":"0","display_name":"sarang.nair"},"ID":6,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 11:02:57 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 11:02:57 - Checking if username exists....
+11-12-2018 @ 11:02:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 76
+11-12-2018 @ 11:02:58 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:02:58 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:02:58 - 
+
+11-12-2018 @ 11:02:58 - Check Line Items for Order ID - 5997
+11-12-2018 @ 11:02:58 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:02:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 76
+11-12-2018 @ 11:02:58 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:02:58 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:02:58 - 
+
+11-12-2018 @ 11:02:58 - Enrollment response 0
+11-12-2018 @ 11:02:58 - Check Line Items for Order ID - 5997
+11-12-2018 @ 11:02:58 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:03:22 - Check Line Items for Order ID - 5997
+11-12-2018 @ 11:03:22 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:10:19 - Link Moodle User for User ID  1
+11-12-2018 @ 11:10:19 - Log from WooIntegration
+11-12-2018 @ 11:10:19 - User Object JSON Encoded : {"data":{"ID":"1","user_login":"khateam","user_pass":"$P$BQWZsyTIkkjEwAjiej01kK\/83qI\/.n1","user_nicename":"khateam","user_email":"manoj@khacreation.com","user_url":"","user_registered":"2018-10-31 10:34:21","user_activation_key":"","user_status":"0","display_name":"khateam"},"ID":1,"caps":{"administrator":true},"cap_key":"wp_capabilities","roles":["administrator"],"allcaps":{"switch_themes":true,"edit_themes":true,"activate_plugins":true,"edit_plugins":true,"edit_users":true,"edit_files":true,"manage_options":true,"moderate_comments":true,"manage_categories":true,"manage_links":true,"upload_files":true,"import":true,"unfiltered_html":true,"edit_posts":true,"edit_others_posts":true,"edit_published_posts":true,"publish_posts":true,"edit_pages":true,"read":true,"level_10":true,"level_9":true,"level_8":true,"level_7":true,"level_6":true,"level_5":true,"level_4":true,"level_3":true,"level_2":true,"level_1":true,"level_0":true,"edit_others_pages":true,"edit_published_pages":true,"publish_pages":true,"delete_pages":true,"delete_others_pages":true,"delete_published_pages":true,"delete_posts":true,"delete_others_posts":true,"delete_published_posts":true,"delete_private_posts":true,"edit_private_posts":true,"read_private_posts":true,"delete_private_pages":true,"edit_private_pages":true,"read_private_pages":true,"delete_users":true,"create_users":true,"unfiltered_upload":true,"edit_dashboard":true,"update_plugins":true,"delete_plugins":true,"install_plugins":true,"update_themes":true,"install_themes":true,"update_core":true,"list_users":true,"remove_users":true,"promote_users":true,"edit_theme_options":true,"delete_themes":true,"export":true,"manage_woocommerce":true,"view_woocommerce_reports":true,"edit_product":true,"read_product":true,"delete_product":true,"edit_products":true,"edit_others_products":true,"publish_products":true,"read_private_products":true,"delete_products":true,"delete_private_products":true,"delete_published_products":true,"delete_others_products":true,"edit_private_products":true,"edit_published_products":true,"manage_product_terms":true,"edit_product_terms":true,"delete_product_terms":true,"assign_product_terms":true,"edit_shop_order":true,"read_shop_order":true,"delete_shop_order":true,"edit_shop_orders":true,"edit_others_shop_orders":true,"publish_shop_orders":true,"read_private_shop_orders":true,"delete_shop_orders":true,"delete_private_shop_orders":true,"delete_published_shop_orders":true,"delete_others_shop_orders":true,"edit_private_shop_orders":true,"edit_published_shop_orders":true,"manage_shop_order_terms":true,"edit_shop_order_terms":true,"delete_shop_order_terms":true,"assign_shop_order_terms":true,"edit_shop_coupon":true,"read_shop_coupon":true,"delete_shop_coupon":true,"edit_shop_coupons":true,"edit_others_shop_coupons":true,"publish_shop_coupons":true,"read_private_shop_coupons":true,"delete_shop_coupons":true,"delete_private_shop_coupons":true,"delete_published_shop_coupons":true,"delete_others_shop_coupons":true,"edit_private_shop_coupons":true,"edit_published_shop_coupons":true,"manage_shop_coupon_terms":true,"edit_shop_coupon_terms":true,"delete_shop_coupon_terms":true,"assign_shop_coupon_terms":true,"administrator":true},"filter":null}
+11-12-2018 @ 11:10:19 - Check if User enrolled for Order ID - 5998
+11-12-2018 @ 11:10:19 - No User enrollment for Order ID - 5998
+11-12-2018 @ 11:10:19 - Check Line Items for Order ID - 5998
+11-12-2018 @ 11:10:20 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:11:03 - Link Moodle User for User ID  6
+11-12-2018 @ 11:11:03 - Log from WooIntegration
+11-12-2018 @ 11:11:03 - User Object JSON Encoded : {"data":{"ID":"6","user_login":"sarang.nair","user_pass":"$P$BpMEA6Bu4r\/LzZD58WlnDa8tlAMyjj.","user_nicename":"sarang-nair","user_email":"sarang.nair@wisdmlabs.com","user_url":"","user_registered":"2018-11-12 11:02:57","user_activation_key":"","user_status":"0","display_name":"sarang.nair"},"ID":6,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 11:11:03 - Associated moodle a/c found? :Yes, Moodle user ID is: 76
+11-12-2018 @ 11:11:03 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:11:03 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:11:03 - 
+
+11-12-2018 @ 11:11:03 - Check Line Items for Order ID - 5999
+11-12-2018 @ 11:11:03 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:11:03 - Associated moodle a/c found? :Yes, Moodle user ID is: 76
+11-12-2018 @ 11:11:03 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:11:03 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:11:03 - 
+
+11-12-2018 @ 11:11:03 - User enrolled for courses - a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:11:04 - Check Line Items for Order ID - 5999
+11-12-2018 @ 11:11:04 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:47:04 - Link Moodle User for User ID  7
+11-12-2018 @ 11:47:04 - Log from WooIntegration
+11-12-2018 @ 11:47:04 - User Object JSON Encoded : {"data":{"ID":"7","user_login":"sara","user_pass":"$P$Bp2GCraz18JhfEZX09ajygXiWZaR\/30","user_nicename":"sara","user_email":"sara@gmail.com","user_url":"","user_registered":"2018-11-12 11:47:03","user_activation_key":"","user_status":"0","display_name":"sara"},"ID":7,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 11:47:04 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 11:47:04 - Checking if username exists....
+11-12-2018 @ 11:47:04 - Check if User enrolled for Order ID - 6000
+11-12-2018 @ 11:47:04 - No User enrollment for Order ID - 6000
+11-12-2018 @ 11:47:05 - Check Line Items for Order ID - 6000
+11-12-2018 @ 11:47:05 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:48:59 - Check Line Items for Order ID - 6000
+11-12-2018 @ 11:48:59 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:49:04 - Associated moodle a/c found? :Yes, Moodle user ID is: 77
+11-12-2018 @ 11:49:04 - Course IDs: a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:49:04 - Respective moodle course IDs: a:1:{i:5960;s:2:"38";}
+11-12-2018 @ 11:49:04 - 
+
+11-12-2018 @ 11:49:04 - Check Line Items for Order ID - 6000
+11-12-2018 @ 11:49:04 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:49:04 - Associated moodle a/c found? :Yes, Moodle user ID is: 77
+11-12-2018 @ 11:49:04 - Course IDs: a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:49:04 - Respective moodle course IDs: a:1:{i:5960;s:2:"38";}
+11-12-2018 @ 11:49:04 - 
+
+11-12-2018 @ 11:49:04 - User enrolled for courses - a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:49:05 - Check Line Items for Order ID - 6000
+11-12-2018 @ 11:49:05 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-12-2018 @ 11:54:33 - Link Moodle User for User ID  1
+11-12-2018 @ 11:54:33 - Log from WooIntegration
+11-12-2018 @ 11:54:33 - User Object JSON Encoded : {"data":{"ID":"1","user_login":"khateam","user_pass":"$P$BQWZsyTIkkjEwAjiej01kK\/83qI\/.n1","user_nicename":"khateam","user_email":"manoj@khacreation.com","user_url":"","user_registered":"2018-10-31 10:34:21","user_activation_key":"","user_status":"0","display_name":"khateam"},"ID":1,"caps":{"administrator":true},"cap_key":"wp_capabilities","roles":["administrator"],"allcaps":{"switch_themes":true,"edit_themes":true,"activate_plugins":true,"edit_plugins":true,"edit_users":true,"edit_files":true,"manage_options":true,"moderate_comments":true,"manage_categories":true,"manage_links":true,"upload_files":true,"import":true,"unfiltered_html":true,"edit_posts":true,"edit_others_posts":true,"edit_published_posts":true,"publish_posts":true,"edit_pages":true,"read":true,"level_10":true,"level_9":true,"level_8":true,"level_7":true,"level_6":true,"level_5":true,"level_4":true,"level_3":true,"level_2":true,"level_1":true,"level_0":true,"edit_others_pages":true,"edit_published_pages":true,"publish_pages":true,"delete_pages":true,"delete_others_pages":true,"delete_published_pages":true,"delete_posts":true,"delete_others_posts":true,"delete_published_posts":true,"delete_private_posts":true,"edit_private_posts":true,"read_private_posts":true,"delete_private_pages":true,"edit_private_pages":true,"read_private_pages":true,"delete_users":true,"create_users":true,"unfiltered_upload":true,"edit_dashboard":true,"update_plugins":true,"delete_plugins":true,"install_plugins":true,"update_themes":true,"install_themes":true,"update_core":true,"list_users":true,"remove_users":true,"promote_users":true,"edit_theme_options":true,"delete_themes":true,"export":true,"manage_woocommerce":true,"view_woocommerce_reports":true,"edit_product":true,"read_product":true,"delete_product":true,"edit_products":true,"edit_others_products":true,"publish_products":true,"read_private_products":true,"delete_products":true,"delete_private_products":true,"delete_published_products":true,"delete_others_products":true,"edit_private_products":true,"edit_published_products":true,"manage_product_terms":true,"edit_product_terms":true,"delete_product_terms":true,"assign_product_terms":true,"edit_shop_order":true,"read_shop_order":true,"delete_shop_order":true,"edit_shop_orders":true,"edit_others_shop_orders":true,"publish_shop_orders":true,"read_private_shop_orders":true,"delete_shop_orders":true,"delete_private_shop_orders":true,"delete_published_shop_orders":true,"delete_others_shop_orders":true,"edit_private_shop_orders":true,"edit_published_shop_orders":true,"manage_shop_order_terms":true,"edit_shop_order_terms":true,"delete_shop_order_terms":true,"assign_shop_order_terms":true,"edit_shop_coupon":true,"read_shop_coupon":true,"delete_shop_coupon":true,"edit_shop_coupons":true,"edit_others_shop_coupons":true,"publish_shop_coupons":true,"read_private_shop_coupons":true,"delete_shop_coupons":true,"delete_private_shop_coupons":true,"delete_published_shop_coupons":true,"delete_others_shop_coupons":true,"edit_private_shop_coupons":true,"edit_published_shop_coupons":true,"manage_shop_coupon_terms":true,"edit_shop_coupon_terms":true,"delete_shop_coupon_terms":true,"assign_shop_coupon_terms":true,"administrator":true},"filter":null}
+11-12-2018 @ 11:55:19 - Check if User enrolled for Order ID - 6001
+11-12-2018 @ 11:55:19 - No User enrollment for Order ID - 6001
+11-12-2018 @ 11:55:25 - Check Line Items for Order ID - 6001
+11-12-2018 @ 11:55:25 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:51 - Check Line Items for Order ID - 6001
+11-12-2018 @ 11:55:51 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:57 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-12-2018 @ 11:55:57 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:57 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:55:57 - 
+
+11-12-2018 @ 11:55:57 - Check Line Items for Order ID - 6001
+11-12-2018 @ 11:55:57 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:57 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-12-2018 @ 11:55:57 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:57 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 11:55:57 - 
+
+11-12-2018 @ 11:55:57 - User enrolled for courses - a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 11:55:58 - Check Line Items for Order ID - 6001
+11-12-2018 @ 11:55:58 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 12:07:09 - Enrollment records of user ID: 4 are deleted.
+11-12-2018 @ 12:07:15 - Enrollment records of user ID: 6 are deleted.
+11-12-2018 @ 12:07:25 - Enrollment records of user ID: 7 are deleted.
+11-12-2018 @ 12:07:31 - Enrollment records of user ID: 2 are deleted.
+11-12-2018 @ 12:07:36 - Enrollment records of user ID: 5 are deleted.
+11-12-2018 @ 12:07:41 - Enrollment records of user ID: 3 are deleted.
+11-12-2018 @ 12:09:53 - Link Moodle User for User ID  8
+11-12-2018 @ 12:09:53 - Log from WooIntegration
+11-12-2018 @ 12:09:53 - User Object JSON Encoded : {"data":{"ID":"8","user_login":"jondeo","user_pass":"$P$B9\/eD1QhEGeQFxkI\/qJSTGGmsaX4Z7.","user_nicename":"jondeo","user_email":"jondeo@gmail.com","user_url":"","user_registered":"2018-11-12 12:09:53","user_activation_key":"","user_status":"0","display_name":"jondeo"},"ID":8,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 12:09:53 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 12:09:53 - Checking if username exists....
+11-12-2018 @ 12:09:54 - Check if User enrolled for Order ID - 6007
+11-12-2018 @ 12:09:54 - No User enrollment for Order ID - 6007
+11-12-2018 @ 12:09:54 - Check Line Items for Order ID - 6007
+11-12-2018 @ 12:09:54 - Courses IDs from Line Items  a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:10:30 - Link Moodle User for User ID  9
+11-12-2018 @ 12:10:30 - Log from WooIntegration
+11-12-2018 @ 12:10:30 - User Object JSON Encoded : {"data":{"ID":"9","user_login":"manojfront","user_pass":"$P$BKwUZ2jBGpQ.Mal7bI\/7WVxX\/2S8Ge.","user_nicename":"manojfront","user_email":"manoj+front@khacreation.com","user_url":"","user_registered":"2018-11-12 12:10:30","user_activation_key":"","user_status":"0","display_name":"manojfront"},"ID":9,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 12:11:44 - Check Line Items for Order ID - 6007
+11-12-2018 @ 12:11:44 - Courses IDs from Line Items  a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:11:51 - Associated moodle a/c found? :Yes, Moodle user ID is: 78
+11-12-2018 @ 12:11:51 - Course IDs: a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:11:51 - Respective moodle course IDs: a:1:{i:5957;s:2:"35";}
+11-12-2018 @ 12:11:51 - 
+
+11-12-2018 @ 12:11:51 - Check Line Items for Order ID - 6007
+11-12-2018 @ 12:11:51 - Courses IDs from Line Items  a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:11:51 - Associated moodle a/c found? :Yes, Moodle user ID is: 78
+11-12-2018 @ 12:11:51 - Course IDs: a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:11:51 - Respective moodle course IDs: a:1:{i:5957;s:2:"35";}
+11-12-2018 @ 12:11:51 - 
+
+11-12-2018 @ 12:11:51 - Enrollment response 0
+11-12-2018 @ 12:11:51 - Check Line Items for Order ID - 6007
+11-12-2018 @ 12:11:51 - Courses IDs from Line Items  a:1:{i:0;s:4:"5957";}
+11-12-2018 @ 12:12:36 - Check Line Items for Order ID - 6008
+11-12-2018 @ 12:12:36 - Courses IDs from Line Items  a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:12:39 - Check if User enrolled for Order ID - 6008
+11-12-2018 @ 12:12:39 - No User enrollment for Order ID - 6008
+11-12-2018 @ 12:13:03 - Check Line Items for Order ID - 6008
+11-12-2018 @ 12:13:03 - Courses IDs from Line Items  a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:13:10 - Associated moodle a/c found? :Yes, Moodle user ID is: 74
+11-12-2018 @ 12:13:10 - Course IDs: a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:13:10 - Respective moodle course IDs: a:1:{i:5946;s:2:"24";}
+11-12-2018 @ 12:13:10 - 
+
+11-12-2018 @ 12:13:10 - Check Line Items for Order ID - 6008
+11-12-2018 @ 12:13:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:13:10 - Associated moodle a/c found? :Yes, Moodle user ID is: 74
+11-12-2018 @ 12:13:10 - Course IDs: a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:13:10 - Respective moodle course IDs: a:1:{i:5946;s:2:"24";}
+11-12-2018 @ 12:13:10 - 
+
+11-12-2018 @ 12:13:10 - User enrolled for courses - a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:13:11 - Check Line Items for Order ID - 6008
+11-12-2018 @ 12:13:11 - Courses IDs from Line Items  a:1:{i:0;s:4:"5946";}
+11-12-2018 @ 12:40:48 - Link Moodle User for User ID  10
+11-12-2018 @ 12:40:48 - Log from WooIntegration
+11-12-2018 @ 12:40:48 - User Object JSON Encoded : {"data":{"ID":"10","user_login":"manojmilind","user_pass":"$P$BlEuVjyHFCMHWq3dM9HpbTg16J3Xtl0","user_nicename":"manojmilind","user_email":"manoj+milind@khacreation.com","user_url":"","user_registered":"2018-11-12 12:40:48","user_activation_key":"","user_status":"0","display_name":"manojmilind"},"ID":10,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 12:40:48 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 12:40:48 - Checking if username exists....
+11-12-2018 @ 12:42:08 - Check Line Items for Order ID - 6010
+11-12-2018 @ 12:42:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:11 - Check if User enrolled for Order ID - 6010
+11-12-2018 @ 12:42:11 - No User enrollment for Order ID - 6010
+11-12-2018 @ 12:42:31 - Check Line Items for Order ID - 6010
+11-12-2018 @ 12:42:31 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:37 - Associated moodle a/c found? :Yes, Moodle user ID is: 79
+11-12-2018 @ 12:42:37 - Course IDs: a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:37 - Respective moodle course IDs: a:1:{i:5951;s:2:"29";}
+11-12-2018 @ 12:42:37 - 
+
+11-12-2018 @ 12:42:38 - Check Line Items for Order ID - 6010
+11-12-2018 @ 12:42:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:38 - Associated moodle a/c found? :Yes, Moodle user ID is: 79
+11-12-2018 @ 12:42:38 - Course IDs: a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:38 - Respective moodle course IDs: a:1:{i:5951;s:2:"29";}
+11-12-2018 @ 12:42:38 - 
+
+11-12-2018 @ 12:42:38 - User enrolled for courses - a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:42:39 - Check Line Items for Order ID - 6010
+11-12-2018 @ 12:42:39 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 12:51:45 - Link Moodle User for User ID  11
+11-12-2018 @ 12:51:45 - Log from WooIntegration
+11-12-2018 @ 12:51:45 - User Object JSON Encoded : {"data":{"ID":"11","user_login":"vishal","user_pass":"$P$BpKqBHBT4dOGRoH1lfY9AjTwMJa3Z4\/","user_nicename":"vishal","user_email":"vishal@khacreation.com","user_url":"","user_registered":"2018-11-12 12:51:44","user_activation_key":"","user_status":"0","display_name":"vishal"},"ID":11,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 12:51:45 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 12:51:45 - Checking if username exists....
+11-12-2018 @ 12:52:41 - Check Line Items for Order ID - 6011
+11-12-2018 @ 12:52:41 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:52:46 - Check if User enrolled for Order ID - 6011
+11-12-2018 @ 12:52:46 - No User enrollment for Order ID - 6011
+11-12-2018 @ 12:53:03 - Check Line Items for Order ID - 6011
+11-12-2018 @ 12:53:03 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:53:08 - Associated moodle a/c found? :Yes, Moodle user ID is: 80
+11-12-2018 @ 12:53:08 - Course IDs: a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:53:08 - Respective moodle course IDs: a:1:{i:5952;s:2:"30";}
+11-12-2018 @ 12:53:08 - 
+
+11-12-2018 @ 12:53:08 - Check Line Items for Order ID - 6011
+11-12-2018 @ 12:53:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:53:08 - Associated moodle a/c found? :Yes, Moodle user ID is: 80
+11-12-2018 @ 12:53:08 - Course IDs: a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:53:08 - Respective moodle course IDs: a:1:{i:5952;s:2:"30";}
+11-12-2018 @ 12:53:08 - 
+
+11-12-2018 @ 12:53:08 - User enrolled for courses - a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:53:09 - Check Line Items for Order ID - 6011
+11-12-2018 @ 12:53:09 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 12:56:38 - Check Line Items for Order ID - 6011
+11-12-2018 @ 12:56:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-12-2018 @ 13:06:02 - Link Moodle User for User ID  12
+11-12-2018 @ 13:06:02 - Log from WooIntegration
+11-12-2018 @ 13:06:02 - User Object JSON Encoded : {"data":{"ID":"12","user_login":"manojfront1","user_pass":"$P$BxtwU7i79v7OMcD4PQIbp\/PkFwF8xd\/","user_nicename":"manojfront1","user_email":"manoj+front1@khacreation.com","user_url":"","user_registered":"2018-11-12 13:06:02","user_activation_key":"","user_status":"0","display_name":"manojfront1"},"ID":12,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:06:02 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 13:06:02 - Checking if username exists....
+11-12-2018 @ 13:07:00 - Check if User enrolled for Order ID - 6012
+11-12-2018 @ 13:07:00 - No User enrollment for Order ID - 6012
+11-12-2018 @ 13:07:01 - Check Line Items for Order ID - 6012
+11-12-2018 @ 13:07:01 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:07:18 - Check Line Items for Order ID - 6012
+11-12-2018 @ 13:07:18 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:13:56 - Enrollment records of user ID: 8 are deleted.
+11-12-2018 @ 13:13:56 - Enrollment records of user ID: 9 are deleted.
+11-12-2018 @ 13:13:56 - Enrollment records of user ID: 12 are deleted.
+11-12-2018 @ 13:13:56 - Enrollment records of user ID: 10 are deleted.
+11-12-2018 @ 13:13:56 - Enrollment records of user ID: 11 are deleted.
+11-12-2018 @ 13:15:46 - Link Moodle User for User ID  13
+11-12-2018 @ 13:15:46 - Log from WooIntegration
+11-12-2018 @ 13:15:46 - User Object JSON Encoded : {"data":{"ID":"13","user_login":"manojfront","user_pass":"$P$Bb\/brZqai72vibICSmmXt0C0hPnAF5.","user_nicename":"manojfront","user_email":"manoj+front@khacreation.com","user_url":"","user_registered":"2018-11-12 13:15:46","user_activation_key":"","user_status":"0","display_name":"manojfront"},"ID":13,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:15:46 - New course enrolled,
+                                    User ID: 13 Course ID: 5946
+11-12-2018 @ 13:16:28 - Check if User enrolled for Order ID - 6013
+11-12-2018 @ 13:16:28 - No User enrollment for Order ID - 6013
+11-12-2018 @ 13:16:35 - Check Line Items for Order ID - 6013
+11-12-2018 @ 13:16:35 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:16:57 - Check Line Items for Order ID - 6013
+11-12-2018 @ 13:16:57 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:21:56 - Check Line Items for Order ID - 6013
+11-12-2018 @ 13:21:56 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:28:33 - Link Moodle User for User ID  14
+11-12-2018 @ 13:28:33 - Log from WooIntegration
+11-12-2018 @ 13:28:33 - User Object JSON Encoded : {"data":{"ID":"14","user_login":"rohanwo201","user_pass":"$P$BD.1IFgKHSQxVzpE3UFbmHkFshiw6Z.","user_nicename":"rohanwo201","user_email":"rohan+wo201@khacreation.com","user_url":"","user_registered":"2018-11-12 13:28:33","user_activation_key":"","user_status":"0","display_name":"rohanwo201"},"ID":14,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:28:33 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 13:28:33 - Checking if username exists....
+11-12-2018 @ 13:29:25 - Check Line Items for Order ID - 6014
+11-12-2018 @ 13:29:25 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:29:26 - Check if User enrolled for Order ID - 6014
+11-12-2018 @ 13:29:26 - No User enrollment for Order ID - 6014
+11-12-2018 @ 13:30:37 - Check Line Items for Order ID - 6014
+11-12-2018 @ 13:30:37 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:31:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 82
+11-12-2018 @ 13:31:09 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:31:09 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 13:31:09 - 
+
+11-12-2018 @ 13:31:09 - Check Line Items for Order ID - 6014
+11-12-2018 @ 13:31:09 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:31:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 82
+11-12-2018 @ 13:31:09 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:31:09 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-12-2018 @ 13:31:09 - 
+
+11-12-2018 @ 13:31:09 - User enrolled for courses - a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:31:10 - Check Line Items for Order ID - 6014
+11-12-2018 @ 13:31:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-12-2018 @ 13:34:40 - Link Moodle User for User ID  15
+11-12-2018 @ 13:34:40 - Log from WooIntegration
+11-12-2018 @ 13:34:40 - User Object JSON Encoded : {"data":{"ID":"15","user_login":"rohanwo202","user_pass":"$P$BAibHWywzgPfKf76D\/OFC6TuNm\/BY\/1","user_nicename":"rohanwo202","user_email":"rohan+wo202@khacreation.com","user_url":"","user_registered":"2018-11-12 13:34:40","user_activation_key":"","user_status":"0","display_name":"rohanwo202"},"ID":15,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:34:40 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 13:34:40 - Checking if username exists....
+11-12-2018 @ 13:35:16 - Check if User enrolled for Order ID - 6015
+11-12-2018 @ 13:35:16 - No User enrollment for Order ID - 6015
+11-12-2018 @ 13:35:19 - Check Line Items for Order ID - 6015
+11-12-2018 @ 13:35:19 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-12-2018 @ 13:45:07 - Link Moodle User for User ID  15
+11-12-2018 @ 13:45:07 - Log from WooIntegration
+11-12-2018 @ 13:45:07 - User Object JSON Encoded : {"data":{"ID":"15","user_login":"rohanwo202","user_pass":"$P$BAibHWywzgPfKf76D\/OFC6TuNm\/BY\/1","user_nicename":"rohanwo202","user_email":"rohan+wo202@khacreation.com","user_url":"","user_registered":"2018-11-12 13:34:40","user_activation_key":"","user_status":"0","display_name":"rohanwo202"},"ID":15,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:46:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 83
+11-12-2018 @ 13:46:09 - Course IDs: a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 13:46:09 - Respective moodle course IDs: a:1:{i:5951;s:2:"29";}
+11-12-2018 @ 13:46:09 - 
+
+11-12-2018 @ 13:46:09 - Check Line Items for Order ID - 6016
+11-12-2018 @ 13:46:09 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 13:46:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 83
+11-12-2018 @ 13:46:09 - Course IDs: a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 13:46:09 - Respective moodle course IDs: a:1:{i:5951;s:2:"29";}
+11-12-2018 @ 13:46:09 - 
+
+11-12-2018 @ 13:46:09 - User enrolled for courses - a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 13:46:11 - Check Line Items for Order ID - 6016
+11-12-2018 @ 13:46:11 - Courses IDs from Line Items  a:1:{i:0;s:4:"5951";}
+11-12-2018 @ 13:52:42 - Link Moodle User for User ID  16
+11-12-2018 @ 13:52:42 - Log from WooIntegration
+11-12-2018 @ 13:52:42 - User Object JSON Encoded : {"data":{"ID":"16","user_login":"west","user_pass":"$P$BlGNMyZt3XaGVdc.dvnmXR.vzbQ2Jj\/","user_nicename":"west","user_email":"west@gmail.com","user_url":"","user_registered":"2018-11-12 13:52:41","user_activation_key":"","user_status":"0","display_name":"west"},"ID":16,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-12-2018 @ 13:52:42 - Start creating/updating moodle user, Updating: 0
+11-12-2018 @ 13:52:42 - Checking if username exists....
+11-12-2018 @ 13:54:00 - Associated moodle a/c found? :Yes, Moodle user ID is: 84
+11-12-2018 @ 13:54:00 - Course IDs: a:1:{i:0;s:4:"5950";}
+11-12-2018 @ 13:54:00 - Respective moodle course IDs: a:1:{i:5950;s:2:"28";}
+11-12-2018 @ 13:54:00 - 
+
+11-12-2018 @ 13:54:00 - Check Line Items for Order ID - 6017
+11-12-2018 @ 13:54:00 - Courses IDs from Line Items  a:1:{i:0;s:4:"5950";}
+11-12-2018 @ 13:54:00 - Associated moodle a/c found? :Yes, Moodle user ID is: 84
+11-12-2018 @ 13:54:00 - Course IDs: a:1:{i:0;s:4:"5950";}
+11-12-2018 @ 13:54:00 - Respective moodle course IDs: a:1:{i:5950;s:2:"28";}
+11-12-2018 @ 13:54:00 - 
+
+11-12-2018 @ 13:54:00 - User enrolled for courses - a:1:{i:0;s:4:"5950";}
+11-12-2018 @ 13:54:02 - Check Line Items for Order ID - 6017
+11-12-2018 @ 13:54:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"5950";}
+11-13-2018 @ 05:17:37 - Link Moodle User for User ID  17
+11-13-2018 @ 05:17:37 - Log from WooIntegration
+11-13-2018 @ 05:17:37 - User Object JSON Encoded : {"data":{"ID":"17","user_login":"demo1","user_pass":"$P$B9V8.rI3VDd8qVmzZdgIY8m7t7oqE1\/","user_nicename":"demo1","user_email":"demo1@gmail.com","user_url":"","user_registered":"2018-11-13 05:17:37","user_activation_key":"","user_status":"0","display_name":"demo1"},"ID":17,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-13-2018 @ 05:17:37 - Start creating/updating moodle user, Updating: 0
+11-13-2018 @ 05:17:37 - Checking if username exists....
+11-13-2018 @ 05:18:55 - Check Line Items for Order ID - 6018
+11-13-2018 @ 05:18:55 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-13-2018 @ 05:18:56 - Associated moodle a/c found? :Yes, Moodle user ID is: 85
+11-13-2018 @ 05:18:56 - Course IDs: a:1:{i:0;s:4:"5952";}
+11-13-2018 @ 05:18:56 - Respective moodle course IDs: a:1:{i:5952;s:2:"30";}
+11-13-2018 @ 05:18:56 - 
+
+11-13-2018 @ 05:18:56 - Check Line Items for Order ID - 6018
+11-13-2018 @ 05:18:56 - Courses IDs from Line Items  a:1:{i:0;s:4:"5952";}
+11-13-2018 @ 05:18:56 - Associated moodle a/c found? :Yes, Moodle user ID is: 85
+11-13-2018 @ 05:18:56 - Course IDs: a:1:{i:0;s:4:"5952";}
+11-13-2018 @ 05:18:56 - Respective moodle course IDs: a:1:{i:5952;s:2:"30";}
+11-13-2018 @ 05:18:56 - 
+
+11-13-2018 @ 05:18:56 - User enrolled for courses - a:1:{i:0;s:4:"5952";}
+11-13-2018 @ 05:25:39 - Link Moodle User for User ID  18
+11-13-2018 @ 05:25:39 - Log from WooIntegration
+11-13-2018 @ 05:25:39 - User Object JSON Encoded : {"data":{"ID":"18","user_login":"demo","user_pass":"$P$BxRNxFvRH\/9N8uY.vK.Ofrcu8SQzPc.","user_nicename":"demo","user_email":"demo@gmail.com","user_url":"","user_registered":"2018-11-13 05:25:38","user_activation_key":"","user_status":"0","display_name":"demo"},"ID":18,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-13-2018 @ 05:25:39 - Start creating/updating moodle user, Updating: 0
+11-13-2018 @ 05:25:39 - Checking if username exists....
+11-13-2018 @ 05:26:02 - Associated moodle a/c found? :Yes, Moodle user ID is: 86
+11-13-2018 @ 05:26:02 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 05:26:02 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-13-2018 @ 05:26:02 - 
+
+11-13-2018 @ 05:26:02 - Check Line Items for Order ID - 6019
+11-13-2018 @ 05:26:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 05:26:02 - Associated moodle a/c found? :Yes, Moodle user ID is: 86
+11-13-2018 @ 05:26:02 - Course IDs: a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 05:26:02 - Respective moodle course IDs: a:1:{i:5945;s:2:"23";}
+11-13-2018 @ 05:26:02 - 
+
+11-13-2018 @ 05:26:02 - User enrolled for courses - a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 05:26:04 - Check Line Items for Order ID - 6019
+11-13-2018 @ 05:26:04 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 12:24:43 - Initiating course & category sync process....
+11-13-2018 @ 12:25:02 - New course enrolled,
+                                    User ID: 1 Course ID: 5945
+11-13-2018 @ 12:25:02 - Unenrolled user: 13 from course 5946
+11-13-2018 @ 12:25:02 - New course enrolled,
+                                    User ID: 14 Course ID: 5945
+11-13-2018 @ 12:25:02 - New course enrolled,
+                                    User ID: 15 Course ID: 5951
+11-13-2018 @ 12:25:03 - New course enrolled,
+                                    User ID: 17 Course ID: 5952
+11-13-2018 @ 12:25:03 - New course enrolled,
+                                    User ID: 18 Course ID: 5945
+11-13-2018 @ 12:44:19 - New course enrolled,
+                                    User ID: 1 Course ID: 5945
+11-13-2018 @ 12:44:19 - New course enrolled,
+                                    User ID: 14 Course ID: 5945
+11-13-2018 @ 12:44:19 - New course enrolled,
+                                    User ID: 15 Course ID: 5951
+11-13-2018 @ 12:44:19 - Unenrolled user: 16 from course 5950
+11-13-2018 @ 12:44:19 - New course enrolled,
+                                    User ID: 17 Course ID: 5952
+11-13-2018 @ 12:44:19 - New course enrolled,
+                                    User ID: 18 Course ID: 5945
+11-13-2018 @ 12:54:57 - Link Moodle User for User ID  19
+11-13-2018 @ 12:54:57 - Log from WooIntegration
+11-13-2018 @ 12:54:57 - User Object JSON Encoded : {"data":{"ID":"19","user_login":"username1","user_pass":"$P$Bne543Ns7\/1qlVQgfAkRDRYTWIKY70.","user_nicename":"username1","user_email":"username1@gmail.com","user_url":"","user_registered":"2018-11-13 12:54:57","user_activation_key":"","user_status":"0","display_name":"username1"},"ID":19,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-13-2018 @ 12:54:57 - Start creating/updating moodle user, Updating: 0
+11-13-2018 @ 12:54:57 - Checking if username exists....
+11-13-2018 @ 12:54:57 - Checking if username exists....
+11-13-2018 @ 13:07:22 - Link Moodle User for User ID  19
+11-13-2018 @ 13:07:22 - Log from WooIntegration
+11-13-2018 @ 13:07:22 - User Object JSON Encoded : {"data":{"ID":"19","user_login":"username1","user_pass":"$P$Bne543Ns7\/1qlVQgfAkRDRYTWIKY70.","user_nicename":"username1","user_email":"username1@gmail.com","user_url":"","user_registered":"2018-11-13 12:54:57","user_activation_key":"","user_status":"0","display_name":"username1"},"ID":19,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-13-2018 @ 13:08:20 - Check Line Items for Order ID - 6052
+11-13-2018 @ 13:08:20 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-13-2018 @ 13:08:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 88
+11-13-2018 @ 13:08:23 - Course IDs: a:1:{i:0;s:4:"5960";}
+11-13-2018 @ 13:08:23 - Respective moodle course IDs: a:1:{i:5960;s:2:"38";}
+11-13-2018 @ 13:08:23 - 
+
+11-13-2018 @ 13:08:23 - Check Line Items for Order ID - 6052
+11-13-2018 @ 13:08:23 - Courses IDs from Line Items  a:1:{i:0;s:4:"5960";}
+11-13-2018 @ 13:08:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 88
+11-13-2018 @ 13:08:23 - Course IDs: a:1:{i:0;s:4:"5960";}
+11-13-2018 @ 13:08:23 - Respective moodle course IDs: a:1:{i:5960;s:2:"38";}
+11-13-2018 @ 13:08:23 - 
+
+11-13-2018 @ 13:08:23 - User enrolled for courses - a:1:{i:0;s:4:"5960";}
+11-13-2018 @ 14:04:56 - Check if User enrolled for Order ID - 6051
+11-13-2018 @ 14:04:56 - No User enrollment for Order ID - 6051
+11-13-2018 @ 14:41:51 - Check Line Items for Order ID - 6013
+11-13-2018 @ 14:41:51 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-13-2018 @ 14:42:08 - Check Line Items for Order ID - 6013
+11-13-2018 @ 14:42:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"5945";}
+11-14-2018 @ 03:45:21 - Link Moodle User for User ID  20
+11-14-2018 @ 03:45:21 - Log from WooIntegration
+11-14-2018 @ 03:45:21 - User Object JSON Encoded : {"data":{"ID":"20","user_login":"vishal","user_pass":"$P$Bd1Ds3IPdb88zqwculRgLm6YEQeQ4e.","user_nicename":"vishal","user_email":"vishal@khacreation.com","user_url":"","user_registered":"2018-11-14 03:45:20","user_activation_key":"","user_status":"0","display_name":"vishal"},"ID":20,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-14-2018 @ 03:45:21 - Start creating/updating moodle user, Updating: 0
+11-14-2018 @ 03:45:21 - Checking if username exists....
+11-14-2018 @ 03:45:43 - Link Moodle User for User ID  21
+11-14-2018 @ 03:45:43 - Log from WooIntegration
+11-14-2018 @ 03:45:43 - User Object JSON Encoded : {"data":{"ID":"21","user_login":"rohan90","user_pass":"$P$BNeO2GMsaLggOTbc8VCrBgBUvjb42T.","user_nicename":"rohan90","user_email":"rohan+90@khacreation.com","user_url":"","user_registered":"2018-11-14 03:45:43","user_activation_key":"","user_status":"0","display_name":"rohan90"},"ID":21,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-14-2018 @ 03:45:43 - Start creating/updating moodle user, Updating: 0
+11-14-2018 @ 03:45:43 - Checking if username exists....
+11-14-2018 @ 03:46:26 - Check Line Items for Order ID - 6053
+11-14-2018 @ 03:46:26 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 03:46:28 - Associated moodle a/c found? :Yes, Moodle user ID is: 89
+11-14-2018 @ 03:46:28 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 03:46:28 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 03:46:28 - 
+
+11-14-2018 @ 03:46:28 - Check Line Items for Order ID - 6053
+11-14-2018 @ 03:46:28 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 03:46:28 - Associated moodle a/c found? :Yes, Moodle user ID is: 89
+11-14-2018 @ 03:46:28 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 03:46:28 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 03:46:28 - 
+
+11-14-2018 @ 03:46:28 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 03:46:56 - Associated moodle a/c found? :Yes, Moodle user ID is: 90
+11-14-2018 @ 03:46:56 - Course IDs: a:1:{i:0;s:4:"5935";}
+11-14-2018 @ 03:46:56 - Respective moodle course IDs: a:1:{i:5935;s:1:"6";}
+11-14-2018 @ 03:46:56 - 
+
+11-14-2018 @ 03:46:57 - Check Line Items for Order ID - 6054
+11-14-2018 @ 03:46:57 - Courses IDs from Line Items  a:1:{i:0;s:4:"5935";}
+11-14-2018 @ 03:46:57 - Associated moodle a/c found? :Yes, Moodle user ID is: 90
+11-14-2018 @ 03:46:57 - Course IDs: a:1:{i:0;s:4:"5935";}
+11-14-2018 @ 03:46:57 - Respective moodle course IDs: a:1:{i:5935;s:1:"6";}
+11-14-2018 @ 03:46:57 - 
+
+11-14-2018 @ 03:46:57 - User enrolled for courses - a:1:{i:0;s:4:"5935";}
+11-14-2018 @ 03:46:57 - Check Line Items for Order ID - 6054
+11-14-2018 @ 03:46:57 - Courses IDs from Line Items  a:1:{i:0;s:4:"5935";}
+11-14-2018 @ 04:02:30 - Link Moodle User for User ID  21
+11-14-2018 @ 04:02:30 - Log from WooIntegration
+11-14-2018 @ 04:02:30 - User Object JSON Encoded : {"data":{"ID":"21","user_login":"rohan90","user_pass":"$P$BNeO2GMsaLggOTbc8VCrBgBUvjb42T.","user_nicename":"rohan90","user_email":"rohan+90@khacreation.com","user_url":"","user_registered":"2018-11-14 03:45:43","user_activation_key":"","user_status":"0","display_name":"rohan90"},"ID":21,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-14-2018 @ 04:03:32 - Check Line Items for Order ID - 6055
+11-14-2018 @ 04:03:32 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:03:34 - Associated moodle a/c found? :Yes, Moodle user ID is: 90
+11-14-2018 @ 04:03:34 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:03:34 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 04:03:34 - 
+
+11-14-2018 @ 04:03:34 - Check Line Items for Order ID - 6055
+11-14-2018 @ 04:03:34 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:03:34 - Associated moodle a/c found? :Yes, Moodle user ID is: 90
+11-14-2018 @ 04:03:34 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:03:34 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 04:03:34 - 
+
+11-14-2018 @ 04:03:34 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:37:50 - Link Moodle User for User ID  22
+11-14-2018 @ 04:37:50 - Log from WooIntegration
+11-14-2018 @ 04:37:50 - User Object JSON Encoded : {"data":{"ID":"22","user_login":"rohanw301","user_pass":"$P$B5Ybcl1q5lVnUKWu2HlSWn.a6.nOqe\/","user_nicename":"rohanw301","user_email":"rohan+w301@khacreation.com","user_url":"","user_registered":"2018-11-14 04:37:49","user_activation_key":"","user_status":"0","display_name":"rohanw301"},"ID":22,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-14-2018 @ 04:37:50 - Start creating/updating moodle user, Updating: 0
+11-14-2018 @ 04:37:50 - Checking if username exists....
+11-14-2018 @ 04:38:38 - Check Line Items for Order ID - 6056
+11-14-2018 @ 04:38:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:38:40 - Associated moodle a/c found? :Yes, Moodle user ID is: 91
+11-14-2018 @ 04:38:40 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:38:40 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 04:38:40 - 
+
+11-14-2018 @ 04:38:40 - Check Line Items for Order ID - 6056
+11-14-2018 @ 04:38:40 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:38:40 - Associated moodle a/c found? :Yes, Moodle user ID is: 91
+11-14-2018 @ 04:38:40 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 04:38:40 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 04:38:40 - 
+
+11-14-2018 @ 04:38:40 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 09:25:04 - Link Moodle User for User ID  23
+11-14-2018 @ 09:25:04 - Log from WooIntegration
+11-14-2018 @ 09:25:04 - User Object JSON Encoded : {"data":{"ID":"23","user_login":"rohan78","user_pass":"$P$Bbovk7ufyuWOXFi7oNjde.JcfKra240","user_nicename":"rohan78","user_email":"rohan+78@khacreation.com","user_url":"","user_registered":"2018-11-14 09:25:03","user_activation_key":"","user_status":"0","display_name":"rohan78"},"ID":23,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-14-2018 @ 09:25:04 - Start creating/updating moodle user, Updating: 0
+11-14-2018 @ 09:25:04 - Checking if username exists....
+11-14-2018 @ 09:25:45 - Check Line Items for Order ID - 6057
+11-14-2018 @ 09:25:45 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 09:25:48 - Associated moodle a/c found? :Yes, Moodle user ID is: 93
+11-14-2018 @ 09:25:48 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 09:25:48 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 09:25:48 - 
+
+11-14-2018 @ 09:25:49 - Check Line Items for Order ID - 6057
+11-14-2018 @ 09:25:49 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 09:25:49 - Associated moodle a/c found? :Yes, Moodle user ID is: 93
+11-14-2018 @ 09:25:49 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 09:25:49 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 09:25:49 - 
+
+11-14-2018 @ 09:25:49 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 10:08:23 - Link Moodle User for User ID  24
+11-14-2018 @ 10:08:23 - Log from WooIntegration
+11-14-2018 @ 10:08:23 - User Object JSON Encoded : {"data":{"ID":"24","user_login":"sara","user_pass":"$P$Bui2UrSO1m\/Ti1FnYfMXTQdlS0cPm51","user_nicename":"sara","user_email":"cizilifezi@voltaer.com","user_url":"","user_registered":"2018-11-14 10:06:21","user_activation_key":"1542189981:$P$BhEwdtDgo1Gs1ATvfelCHTuAwVY1ag.","user_status":"0","display_name":"sara sara"},"ID":24,"caps":{"subscriber":true},"cap_key":"wp_capabilities","roles":["subscriber"],"allcaps":{"read":true,"level_0":true,"subscriber":true},"filter":null}
+11-14-2018 @ 10:08:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 95
+11-14-2018 @ 10:08:58 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 10:08:58 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 10:08:58 - 
+
+11-14-2018 @ 10:08:58 - Check Line Items for Order ID - 6058
+11-14-2018 @ 10:08:58 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 10:08:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 95
+11-14-2018 @ 10:08:58 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 10:08:58 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-14-2018 @ 10:08:58 - 
+
+11-14-2018 @ 10:08:58 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 10:09:00 - Check Line Items for Order ID - 6058
+11-14-2018 @ 10:09:00 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-14-2018 @ 13:15:02 - Initiating course & category sync process....
+11-14-2018 @ 13:15:59 - Initiating course & category sync process....
+11-14-2018 @ 13:16:02 - Initiating course & category sync process....
+11-14-2018 @ 13:16:03 - Initiating course & category sync process....
+11-14-2018 @ 13:16:04 - Initiating course & category sync process....
+11-14-2018 @ 13:16:32 - Initiating course & category sync process....
+11-14-2018 @ 13:16:37 - Initiating course & category sync process....
+11-14-2018 @ 13:16:39 - Initiating course & category sync process....
+11-14-2018 @ 13:16:40 - Initiating course & category sync process....
+11-14-2018 @ 13:16:40 - Initiating course & category sync process....
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 20 Course ID: 5959
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 21 Course ID: 5935
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 21 Course ID: 5959
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 22 Course ID: 5959
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 23 Course ID: 5959
+11-14-2018 @ 13:17:12 - New course enrolled,
+                                    User ID: 24 Course ID: 5959
+11-14-2018 @ 13:17:24 - Unenrolled user: 19 from course 5960
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 20 Course ID: 5959
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 21 Course ID: 5935
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 21 Course ID: 5959
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 22 Course ID: 5959
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 23 Course ID: 5959
+11-14-2018 @ 13:17:24 - New course enrolled,
+                                    User ID: 24 Course ID: 5959
+11-15-2018 @ 12:57:08 - Link Moodle User for User ID  25
+11-15-2018 @ 12:57:08 - Log from WooIntegration
+11-15-2018 @ 12:57:08 - User Object JSON Encoded : {"data":{"ID":"25","user_login":"pexuweruy","user_pass":"$P$BCfk9dcTuIP8Ka3HFuMQzmre0spItH\/","user_nicename":"pexuweruy","user_email":"pexuweruy@moruzza.com","user_url":"","user_registered":"2018-11-15 12:57:08","user_activation_key":"","user_status":"0","display_name":"pexuweruy"},"ID":25,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 12:58:01 - Associated moodle a/c found? :Yes, Moodle user ID is: 96
+11-15-2018 @ 12:58:01 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 12:58:01 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 12:58:01 - 
+
+11-15-2018 @ 12:58:01 - Check Line Items for Order ID - 6075
+11-15-2018 @ 12:58:01 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 12:58:01 - Associated moodle a/c found? :Yes, Moodle user ID is: 96
+11-15-2018 @ 12:58:01 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 12:58:01 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 12:58:01 - 
+
+11-15-2018 @ 12:58:01 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 12:58:02 - Check Line Items for Order ID - 6075
+11-15-2018 @ 12:58:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 20 Course ID: 5959
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 21 Course ID: 5935
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 21 Course ID: 5959
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 22 Course ID: 5959
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 23 Course ID: 5959
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 24 Course ID: 5959
+11-15-2018 @ 13:06:49 - New course enrolled,
+                                    User ID: 25 Course ID: 5959
+11-15-2018 @ 13:08:32 - Password update initiated..... 
+11-15-2018 @ 13:08:32 - A moodle user id is not associated.... Exiting!!!
+11-15-2018 @ 13:14:08 - Link Moodle User for User ID  27
+11-15-2018 @ 13:14:08 - Log from WooIntegration
+11-15-2018 @ 13:14:08 - User Object JSON Encoded : {"data":{"ID":"27","user_login":"rohan91","user_pass":"$P$BfRMfy7bz2J1hCFQVJY6ufdJHF2aNL.","user_nicename":"rohan91","user_email":"rohan+91@gmail.com","user_url":"","user_registered":"2018-11-15 13:14:08","user_activation_key":"","user_status":"0","display_name":"rohan91"},"ID":27,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 13:14:08 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 13:14:08 - Checking if username exists....
+11-15-2018 @ 13:15:24 - Associated moodle a/c found? :Yes, Moodle user ID is: 97
+11-15-2018 @ 13:15:24 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:15:24 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 13:15:24 - 
+
+11-15-2018 @ 13:15:24 - Check Line Items for Order ID - 6084
+11-15-2018 @ 13:15:24 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:15:24 - Associated moodle a/c found? :Yes, Moodle user ID is: 97
+11-15-2018 @ 13:15:24 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:15:24 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 13:15:24 - 
+
+11-15-2018 @ 13:15:24 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:15:24 - Check Line Items for Order ID - 6084
+11-15-2018 @ 13:15:24 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 13:19:59 - Password update initiated..... 
+11-15-2018 @ 13:19:59 - Start creating/updating moodle user, Updating: 1
+11-15-2018 @ 13:39:04 - Link Moodle User for User ID  31
+11-15-2018 @ 13:39:04 - Log from WooIntegration
+11-15-2018 @ 13:39:04 - User Object JSON Encoded : {"data":{"ID":"31","user_login":"rohanz903","user_pass":"$P$B7SzdctqM1NrD332v7QU0Sn1OLXlGK.","user_nicename":"rohanz903","user_email":"rohan+z903@khacreation.com","user_url":"","user_registered":"2018-11-15 13:39:03","user_activation_key":"","user_status":"0","display_name":"rohanz903"},"ID":31,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 13:39:04 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 13:39:04 - Checking if username exists....
+11-15-2018 @ 14:12:17 - Link Moodle User for User ID  33
+11-15-2018 @ 14:12:17 - Log from WooIntegration
+11-15-2018 @ 14:12:17 - User Object JSON Encoded : {"data":{"ID":"33","user_login":"rohanw906","user_pass":"$P$BKKzAGXPu74mOsxZpEN\/9b3kQOywYS1","user_nicename":"rohanw906","user_email":"rohan+w906@khacreation.com","user_url":"","user_registered":"2018-11-15 14:12:16","user_activation_key":"","user_status":"0","display_name":"rohanw906"},"ID":33,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:12:17 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 14:12:17 - Checking if username exists....
+11-15-2018 @ 14:16:03 - Link Moodle User for User ID  34
+11-15-2018 @ 14:16:03 - Log from WooIntegration
+11-15-2018 @ 14:16:03 - User Object JSON Encoded : {"data":{"ID":"34","user_login":"rohan98","user_pass":"$P$Bq8Hjq2RC6thxxZA7gkCVAbQZYSrKz.","user_nicename":"rohan98","user_email":"rohan+98@khacreation.com","user_url":"","user_registered":"2018-11-15 14:16:02","user_activation_key":"","user_status":"0","display_name":"rohan98"},"ID":34,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:16:03 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 14:16:03 - Checking if username exists....
+11-15-2018 @ 14:16:46 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:16:46 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:16:46 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:16:46 - 
+
+11-15-2018 @ 14:16:46 - Check Line Items for Order ID - 6087
+11-15-2018 @ 14:16:46 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:16:46 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:16:46 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:16:46 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:16:46 - 
+
+11-15-2018 @ 14:16:46 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:16:46 - Check Line Items for Order ID - 6087
+11-15-2018 @ 14:16:46 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:19:52 - Link Moodle User for User ID  34
+11-15-2018 @ 14:19:52 - Log from WooIntegration
+11-15-2018 @ 14:19:52 - User Object JSON Encoded : {"data":{"ID":"34","user_login":"rohan98","user_pass":"$P$Bq8Hjq2RC6thxxZA7gkCVAbQZYSrKz.","user_nicename":"rohan98","user_email":"rohan+98@khacreation.com","user_url":"","user_registered":"2018-11-15 14:16:02","user_activation_key":"","user_status":"0","display_name":"rohan98"},"ID":34,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:20:16 - Check Line Items for Order ID - 6088
+11-15-2018 @ 14:20:16 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:20:19 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:20:19 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:20:19 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:20:19 - 
+
+11-15-2018 @ 14:20:19 - Check Line Items for Order ID - 6088
+11-15-2018 @ 14:20:19 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:20:19 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:20:19 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:20:19 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:20:19 - 
+
+11-15-2018 @ 14:20:19 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:21:20 - Link Moodle User for User ID  34
+11-15-2018 @ 14:21:20 - Log from WooIntegration
+11-15-2018 @ 14:21:20 - User Object JSON Encoded : {"data":{"ID":"34","user_login":"rohan98","user_pass":"$P$Bq8Hjq2RC6thxxZA7gkCVAbQZYSrKz.","user_nicename":"rohan98","user_email":"rohan+98@khacreation.com","user_url":"","user_registered":"2018-11-15 14:16:02","user_activation_key":"","user_status":"0","display_name":"rohan98"},"ID":34,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:21:46 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:21:46 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:21:46 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:21:46 - 
+
+11-15-2018 @ 14:21:46 - Check Line Items for Order ID - 6089
+11-15-2018 @ 14:21:46 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:21:46 - Associated moodle a/c found? :Yes, Moodle user ID is: 100
+11-15-2018 @ 14:21:46 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:21:46 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:21:46 - 
+
+11-15-2018 @ 14:21:46 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:21:46 - Check Line Items for Order ID - 6089
+11-15-2018 @ 14:21:46 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:45:27 - Link Moodle User for User ID  1
+11-15-2018 @ 14:45:27 - Log from WooIntegration
+11-15-2018 @ 14:45:27 - User Object JSON Encoded : {"data":{"ID":"1","user_login":"khateam","user_pass":"$P$BQWZsyTIkkjEwAjiej01kK\/83qI\/.n1","user_nicename":"khateam","user_email":"manoj@khacreation.com","user_url":"","user_registered":"2018-10-31 10:34:21","user_activation_key":"","user_status":"0","display_name":"khateam"},"ID":1,"caps":{"administrator":true},"cap_key":"wp_capabilities","roles":["administrator"],"allcaps":{"switch_themes":true,"edit_themes":true,"activate_plugins":true,"edit_plugins":true,"edit_users":true,"edit_files":true,"manage_options":true,"moderate_comments":true,"manage_categories":true,"manage_links":true,"upload_files":true,"import":true,"unfiltered_html":true,"edit_posts":true,"edit_others_posts":true,"edit_published_posts":true,"publish_posts":true,"edit_pages":true,"read":true,"level_10":true,"level_9":true,"level_8":true,"level_7":true,"level_6":true,"level_5":true,"level_4":true,"level_3":true,"level_2":true,"level_1":true,"level_0":true,"edit_others_pages":true,"edit_published_pages":true,"publish_pages":true,"delete_pages":true,"delete_others_pages":true,"delete_published_pages":true,"delete_posts":true,"delete_others_posts":true,"delete_published_posts":true,"delete_private_posts":true,"edit_private_posts":true,"read_private_posts":true,"delete_private_pages":true,"edit_private_pages":true,"read_private_pages":true,"delete_users":true,"create_users":true,"unfiltered_upload":true,"edit_dashboard":true,"update_plugins":true,"delete_plugins":true,"install_plugins":true,"update_themes":true,"install_themes":true,"update_core":true,"list_users":true,"remove_users":true,"promote_users":true,"edit_theme_options":true,"delete_themes":true,"export":true,"manage_woocommerce":true,"view_woocommerce_reports":true,"edit_product":true,"read_product":true,"delete_product":true,"edit_products":true,"edit_others_products":true,"publish_products":true,"read_private_products":true,"delete_products":true,"delete_private_products":true,"delete_published_products":true,"delete_others_products":true,"edit_private_products":true,"edit_published_products":true,"manage_product_terms":true,"edit_product_terms":true,"delete_product_terms":true,"assign_product_terms":true,"edit_shop_order":true,"read_shop_order":true,"delete_shop_order":true,"edit_shop_orders":true,"edit_others_shop_orders":true,"publish_shop_orders":true,"read_private_shop_orders":true,"delete_shop_orders":true,"delete_private_shop_orders":true,"delete_published_shop_orders":true,"delete_others_shop_orders":true,"edit_private_shop_orders":true,"edit_published_shop_orders":true,"manage_shop_order_terms":true,"edit_shop_order_terms":true,"delete_shop_order_terms":true,"assign_shop_order_terms":true,"edit_shop_coupon":true,"read_shop_coupon":true,"delete_shop_coupon":true,"edit_shop_coupons":true,"edit_others_shop_coupons":true,"publish_shop_coupons":true,"read_private_shop_coupons":true,"delete_shop_coupons":true,"delete_private_shop_coupons":true,"delete_published_shop_coupons":true,"delete_others_shop_coupons":true,"edit_private_shop_coupons":true,"edit_published_shop_coupons":true,"manage_shop_coupon_terms":true,"edit_shop_coupon_terms":true,"delete_shop_coupon_terms":true,"assign_shop_coupon_terms":true,"administrator":true},"filter":null}
+11-15-2018 @ 14:46:07 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-15-2018 @ 14:46:07 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:46:07 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:46:07 - 
+
+11-15-2018 @ 14:46:07 - Check Line Items for Order ID - 6090
+11-15-2018 @ 14:46:07 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:46:07 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-15-2018 @ 14:46:07 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:46:07 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:46:07 - 
+
+11-15-2018 @ 14:46:07 - Enrollment response 0
+11-15-2018 @ 14:46:08 - Check Line Items for Order ID - 6090
+11-15-2018 @ 14:46:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:50:14 - Link Moodle User for User ID  35
+11-15-2018 @ 14:50:14 - Log from WooIntegration
+11-15-2018 @ 14:50:14 - User Object JSON Encoded : {"data":{"ID":"35","user_login":"rohan002","user_pass":"$P$BGRWaeoQDYAh3lnL2NO3N\/lD0b4uJR0","user_nicename":"rohan002","user_email":"rohan+002@khacreation.com","user_url":"","user_registered":"2018-11-15 14:50:14","user_activation_key":"","user_status":"0","display_name":"rohan002"},"ID":35,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:50:14 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 14:50:14 - Checking if username exists....
+11-15-2018 @ 14:50:54 - Check Line Items for Order ID - 6091
+11-15-2018 @ 14:50:54 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:50:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 101
+11-15-2018 @ 14:50:58 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:50:58 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:50:58 - 
+
+11-15-2018 @ 14:50:58 - Check Line Items for Order ID - 6091
+11-15-2018 @ 14:50:58 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:50:58 - Associated moodle a/c found? :Yes, Moodle user ID is: 101
+11-15-2018 @ 14:50:58 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:50:58 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:50:58 - 
+
+11-15-2018 @ 14:50:58 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:53:19 - Check if User enrolled for Order ID - 6085
+11-15-2018 @ 14:53:19 - No User enrollment for Order ID - 6085
+11-15-2018 @ 14:54:06 - Link Moodle User for User ID  36
+11-15-2018 @ 14:54:06 - Log from WooIntegration
+11-15-2018 @ 14:54:06 - User Object JSON Encoded : {"data":{"ID":"36","user_login":"rohan003","user_pass":"$P$Bekv8PRG\/J4xMY1xBVai11Lh4Rrolc.","user_nicename":"rohan003","user_email":"rohan+003@khacreation.com","user_url":"","user_registered":"2018-11-15 14:54:06","user_activation_key":"","user_status":"0","display_name":"rohan003"},"ID":36,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-15-2018 @ 14:54:06 - Start creating/updating moodle user, Updating: 0
+11-15-2018 @ 14:54:06 - Checking if username exists....
+11-15-2018 @ 14:54:32 - Associated moodle a/c found? :Yes, Moodle user ID is: 102
+11-15-2018 @ 14:54:32 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:54:32 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:54:32 - 
+
+11-15-2018 @ 14:54:32 - Check Line Items for Order ID - 6092
+11-15-2018 @ 14:54:32 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:54:32 - Associated moodle a/c found? :Yes, Moodle user ID is: 102
+11-15-2018 @ 14:54:32 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:54:32 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-15-2018 @ 14:54:32 - 
+
+11-15-2018 @ 14:54:32 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-15-2018 @ 14:54:33 - Check Line Items for Order ID - 6092
+11-15-2018 @ 14:54:33 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-16-2018 @ 04:27:08 - Check if User enrolled for Order ID - 6086
+11-16-2018 @ 04:27:08 - No User enrollment for Order ID - 6086
+11-26-2018 @ 06:17:09 - Initiating course & category sync process....
+11-26-2018 @ 06:38:19 - Initiating course & category sync process....
+11-26-2018 @ 06:43:22 - Enrollment records of user ID: 24 are deleted.
+11-26-2018 @ 06:43:22 - Enrollment records of user ID: 26 are deleted.
+11-26-2018 @ 06:43:31 - Enrollment records of user ID: 18 are deleted.
+11-26-2018 @ 06:43:31 - Enrollment records of user ID: 17 are deleted.
+11-26-2018 @ 06:43:31 - Enrollment records of user ID: 13 are deleted.
+11-26-2018 @ 06:43:31 - Enrollment records of user ID: 25 are deleted.
+11-26-2018 @ 06:43:31 - Enrollment records of user ID: 35 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 36 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 23 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 21 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 27 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 34 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 22 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 32 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 33 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 14 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 15 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 28 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 29 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 30 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 31 are deleted.
+11-26-2018 @ 06:43:32 - Enrollment records of user ID: 19 are deleted.
+11-26-2018 @ 06:43:45 - Enrollment records of user ID: 20 are deleted.
+11-26-2018 @ 06:43:46 - Enrollment records of user ID: 16 are deleted.
+11-26-2018 @ 06:49:25 - Link Moodle User for User ID  37
+11-26-2018 @ 06:49:25 - Log from WooIntegration
+11-26-2018 @ 06:49:25 - User Object JSON Encoded : {"data":{"ID":"37","user_login":"manojfront","user_pass":"$P$Btn7M973Se98eBtR1NlpZSVTumxflW0","user_nicename":"manojfront","user_email":"manoj+front@khacreation.com","user_url":"","user_registered":"2018-11-26 06:49:24","user_activation_key":"","user_status":"0","display_name":"manojfront"},"ID":37,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-26-2018 @ 06:49:25 - Start creating/updating moodle user, Updating: 0
+11-26-2018 @ 06:49:25 - Checking if username exists....
+11-26-2018 @ 06:50:30 - Associated moodle a/c found? :Yes, Moodle user ID is: 103
+11-26-2018 @ 06:50:30 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 06:50:30 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 06:50:30 - 
+
+11-26-2018 @ 06:50:30 - Check Line Items for Order ID - 6118
+11-26-2018 @ 06:50:30 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 06:50:30 - Associated moodle a/c found? :Yes, Moodle user ID is: 103
+11-26-2018 @ 06:50:30 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 06:50:30 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 06:50:30 - 
+
+11-26-2018 @ 06:50:30 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 06:50:31 - Check Line Items for Order ID - 6118
+11-26-2018 @ 06:50:31 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 09:21:01 - Link Moodle User for User ID  38
+11-26-2018 @ 09:21:01 - Log from WooIntegration
+11-26-2018 @ 09:21:01 - User Object JSON Encoded : {"data":{"ID":"38","user_login":"rohanwl101","user_pass":"$P$BsADGz6L88sj\/Cap2VnDQgn\/KKgD5f1","user_nicename":"rohanwl101","user_email":"rohan+wl101@khacreation.com","user_url":"","user_registered":"2018-11-26 09:21:01","user_activation_key":"","user_status":"0","display_name":"rohanwl101"},"ID":38,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-26-2018 @ 09:21:01 - Start creating/updating moodle user, Updating: 0
+11-26-2018 @ 09:21:01 - Checking if username exists....
+11-26-2018 @ 09:21:48 - Check Line Items for Order ID - 6124
+11-26-2018 @ 09:21:48 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 09:21:49 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 09:21:49 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 09:21:49 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 09:21:49 - 
+
+11-26-2018 @ 09:21:49 - Check Line Items for Order ID - 6124
+11-26-2018 @ 09:21:49 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 09:21:49 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 09:21:49 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 09:21:49 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 09:21:49 - 
+
+11-26-2018 @ 09:21:49 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:17 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:03:17 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:25 - Check if User enrolled for Order ID - 6124
+11-26-2018 @ 10:03:25 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:03:25 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:25 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:03:25 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:25 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:03:25 - 
+
+11-26-2018 @ 10:03:25 - User enrollment suspended for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:26 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:03:26 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:38 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:03:38 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:38 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:03:38 - 
+
+11-26-2018 @ 10:03:38 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:03:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:38 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:03:38 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:38 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:03:38 - 
+
+11-26-2018 @ 10:03:38 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:03:38 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:03:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:04:18 - Check if User enrolled for Order ID - 6124
+11-26-2018 @ 10:04:18 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:04:18 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:04:18 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:04:18 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:04:18 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:04:18 - 
+
+11-26-2018 @ 10:04:18 - User enrollment suspended for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:04:19 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:04:19 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:09:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:09:23 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:09:23 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:09:23 - 
+
+11-26-2018 @ 10:09:23 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:09:23 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:09:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:09:23 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:09:23 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:09:23 - 
+
+11-26-2018 @ 10:09:23 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:09:24 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:09:24 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:10:04 - Check if User enrolled for Order ID - 6124
+11-26-2018 @ 10:10:04 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:10:04 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:10:04 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:10:04 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:10:04 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:10:04 - 
+
+11-26-2018 @ 10:10:04 - User enrollment suspended for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:10:06 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:10:06 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:15:37 - Start creating/updating moodle user, Updating: 0
+11-26-2018 @ 10:15:37 - Checking if username exists....
+11-26-2018 @ 10:16:01 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:16:01 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:01 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:16:01 - 
+
+11-26-2018 @ 10:16:01 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:01 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:01 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:16:01 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:01 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:16:01 - 
+
+11-26-2018 @ 10:16:01 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:02 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:21 - Check if User enrolled for Order ID - 6124
+11-26-2018 @ 10:16:21 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:21 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:21 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:16:21 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:21 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:16:21 - 
+
+11-26-2018 @ 10:16:21 - User enrollment suspended for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:22 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:22 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:32 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:16:32 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:32 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:16:32 - 
+
+11-26-2018 @ 10:16:32 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:32 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:32 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:16:32 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:32 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-26-2018 @ 10:16:32 - 
+
+11-26-2018 @ 10:16:32 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:16:33 - Check Line Items for Order ID - 6124
+11-26-2018 @ 10:16:33 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-26-2018 @ 10:18:48 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:18:48 - Course IDs: N;
+11-26-2018 @ 10:18:48 - Respective moodle course IDs: a:0:{}
+11-26-2018 @ 10:18:48 - 
+
+11-26-2018 @ 10:18:48 - Check Line Items for Order ID - 6127
+11-26-2018 @ 10:18:48 - Courses IDs from Line Items  a:0:{}
+11-26-2018 @ 10:18:48 - Check Line Items for Order ID - 6127
+11-26-2018 @ 10:18:48 - Courses IDs from Line Items  a:0:{}
+11-26-2018 @ 10:20:48 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 10:20:48 - Course IDs: N;
+11-26-2018 @ 10:20:48 - Respective moodle course IDs: a:0:{}
+11-26-2018 @ 10:20:48 - 
+
+11-26-2018 @ 10:20:48 - Check Line Items for Order ID - 6128
+11-26-2018 @ 10:20:48 - Courses IDs from Line Items  a:0:{}
+11-26-2018 @ 10:20:49 - Check Line Items for Order ID - 6128
+11-26-2018 @ 10:20:49 - Courses IDs from Line Items  a:0:{}
+11-26-2018 @ 10:28:29 - Start creating/updating moodle user, Updating: 1
+11-26-2018 @ 10:30:02 - Start creating/updating moodle user, Updating: 0
+11-26-2018 @ 10:30:02 - Checking if username exists....
+11-26-2018 @ 11:24:43 - Associated moodle a/c found? :Yes, Moodle user ID is: 104
+11-26-2018 @ 11:24:43 - Course IDs: N;
+11-26-2018 @ 11:24:43 - Respective moodle course IDs: a:0:{}
+11-26-2018 @ 11:24:43 - 
+
+11-26-2018 @ 11:24:43 - Check Line Items for Order ID - 6129
+11-26-2018 @ 11:24:43 - Courses IDs from Line Items  a:0:{}
+11-26-2018 @ 11:24:44 - Check Line Items for Order ID - 6129
+11-26-2018 @ 11:24:44 - Courses IDs from Line Items  a:0:{}
+11-27-2018 @ 06:14:40 - Check Line Items for Order ID - 6129
+11-27-2018 @ 06:14:40 - Courses IDs from Line Items  a:0:{}
+11-27-2018 @ 10:36:24 - Link Moodle User for User ID  41
+11-27-2018 @ 10:36:24 - Log from WooIntegration
+11-27-2018 @ 10:36:24 - User Object JSON Encoded : {"data":{"ID":"41","user_login":"rohanwl102","user_pass":"$P$BIEac91BLsjKDC2DNrqZ7gTyoOFIzU.","user_nicename":"rohanwl102","user_email":"rohan+wl102@khacreation.com","user_url":"","user_registered":"2018-11-27 10:36:24","user_activation_key":"","user_status":"0","display_name":"rohanwl102"},"ID":41,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-27-2018 @ 10:36:24 - Start creating/updating moodle user, Updating: 0
+11-27-2018 @ 10:36:24 - Checking if username exists....
+11-27-2018 @ 10:37:10 - Check Line Items for Order ID - 6130
+11-27-2018 @ 10:37:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-27-2018 @ 10:37:10 - Associated moodle a/c found? :Yes, Moodle user ID is: 107
+11-27-2018 @ 10:37:10 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-27-2018 @ 10:37:10 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-27-2018 @ 10:37:10 - 
+
+11-27-2018 @ 10:37:10 - Check Line Items for Order ID - 6130
+11-27-2018 @ 10:37:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-27-2018 @ 10:37:10 - Associated moodle a/c found? :Yes, Moodle user ID is: 107
+11-27-2018 @ 10:37:10 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-27-2018 @ 10:37:10 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-27-2018 @ 10:37:10 - 
+
+11-27-2018 @ 10:37:10 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 10:44:26 - Link Moodle User for User ID  42
+11-29-2018 @ 10:44:26 - Log from WooIntegration
+11-29-2018 @ 10:44:26 - User Object JSON Encoded : {"data":{"ID":"42","user_login":"rohan1000","user_pass":"$P$BlBOHVIX4n0Hv90A5HqHyaUXWCYt\/\/0","user_nicename":"rohan1000","user_email":"rohan+1000@khacreation.com","user_url":"","user_registered":"2018-11-29 10:44:25","user_activation_key":"","user_status":"0","display_name":"rohan1000"},"ID":42,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-29-2018 @ 10:44:26 - Start creating/updating moodle user, Updating: 0
+11-29-2018 @ 10:44:26 - Checking if username exists....
+11-29-2018 @ 10:45:02 - Check Line Items for Order ID - 6131
+11-29-2018 @ 10:45:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 10:45:05 - Associated moodle a/c found? :Yes, Moodle user ID is: 108
+11-29-2018 @ 10:45:05 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 10:45:05 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-29-2018 @ 10:45:05 - 
+
+11-29-2018 @ 10:45:05 - Check Line Items for Order ID - 6131
+11-29-2018 @ 10:45:05 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 10:45:05 - Associated moodle a/c found? :Yes, Moodle user ID is: 108
+11-29-2018 @ 10:45:05 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 10:45:05 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-29-2018 @ 10:45:05 - 
+
+11-29-2018 @ 10:45:05 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 11:51:04 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-29-2018 @ 11:51:04 - Course IDs: N;
+11-29-2018 @ 11:51:04 - Respective moodle course IDs: a:0:{}
+11-29-2018 @ 11:51:04 - 
+
+11-29-2018 @ 11:51:04 - Check Line Items for Order ID - 6135
+11-29-2018 @ 11:51:04 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 11:51:05 - Check Line Items for Order ID - 6135
+11-29-2018 @ 11:51:05 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 12:43:52 - Check Line Items for Order ID - 6135
+11-29-2018 @ 12:43:52 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 12:45:09 - Check Line Items for Order ID - 6135
+11-29-2018 @ 12:45:09 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 12:51:25 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-29-2018 @ 12:51:25 - Course IDs: N;
+11-29-2018 @ 12:51:25 - Respective moodle course IDs: a:0:{}
+11-29-2018 @ 12:51:25 - 
+
+11-29-2018 @ 12:51:25 - Check Line Items for Order ID - 6136
+11-29-2018 @ 12:51:25 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 12:51:26 - Check Line Items for Order ID - 6136
+11-29-2018 @ 12:51:26 - Courses IDs from Line Items  a:0:{}
+11-29-2018 @ 15:11:08 - Link Moodle User for User ID  43
+11-29-2018 @ 15:11:08 - Log from WooIntegration
+11-29-2018 @ 15:11:08 - User Object JSON Encoded : {"data":{"ID":"43","user_login":"rohanwoo101","user_pass":"$P$BkDOlrHJE7svUyG99YMjEYVcMp2UUZ\/","user_nicename":"rohanwoo101","user_email":"rohan+woo101@khacreation.com","user_url":"","user_registered":"2018-11-29 15:11:08","user_activation_key":"","user_status":"0","display_name":"rohanwoo101"},"ID":43,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-29-2018 @ 15:11:09 - Start creating/updating moodle user, Updating: 0
+11-29-2018 @ 15:11:09 - Checking if username exists....
+11-29-2018 @ 15:15:24 - Check Line Items for Order ID - 6141
+11-29-2018 @ 15:15:24 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-29-2018 @ 17:58:19 - Check if User enrolled for Order ID - 6141
+11-29-2018 @ 17:58:19 - No User enrollment for Order ID - 6141
+11-30-2018 @ 04:37:41 - Link Moodle User for User ID  44
+11-30-2018 @ 04:37:41 - Log from WooIntegration
+11-30-2018 @ 04:37:41 - User Object JSON Encoded : {"data":{"ID":"44","user_login":"rohandemo101","user_pass":"$P$BRVsuKIw.1kkvpk8fvk.akctTOVGxZ0","user_nicename":"rohandemo101","user_email":"rohan+demo101@khacreation.com","user_url":"","user_registered":"2018-11-30 04:37:41","user_activation_key":"","user_status":"0","display_name":"rohandemo101"},"ID":44,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-30-2018 @ 04:37:41 - Start creating/updating moodle user, Updating: 0
+11-30-2018 @ 04:37:41 - Checking if username exists....
+11-30-2018 @ 04:38:25 - Check Line Items for Order ID - 6144
+11-30-2018 @ 04:38:25 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 04:45:52 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-30-2018 @ 04:45:52 - Course IDs: N;
+11-30-2018 @ 04:45:52 - Respective moodle course IDs: a:0:{}
+11-30-2018 @ 04:45:52 - 
+
+11-30-2018 @ 04:45:52 - Check Line Items for Order ID - 6146
+11-30-2018 @ 04:45:52 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 04:45:52 - Check Line Items for Order ID - 6146
+11-30-2018 @ 04:45:52 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 04:47:51 - Associated moodle a/c found? :Yes, Moodle user ID is: 39
+11-30-2018 @ 04:47:51 - Course IDs: N;
+11-30-2018 @ 04:47:51 - Respective moodle course IDs: a:0:{}
+11-30-2018 @ 04:47:51 - 
+
+11-30-2018 @ 04:47:51 - Check Line Items for Order ID - 6147
+11-30-2018 @ 04:47:51 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 04:47:52 - Check Line Items for Order ID - 6147
+11-30-2018 @ 04:47:52 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 06:01:48 - Check if User enrolled for Order ID - 6144
+11-30-2018 @ 06:01:48 - No User enrollment for Order ID - 6144
+11-30-2018 @ 06:01:48 - Check if User enrolled for Order ID - 6145
+11-30-2018 @ 06:01:48 - No User enrollment for Order ID - 6145
+11-30-2018 @ 11:55:39 - Check Line Items for Order ID - 6141
+11-30-2018 @ 11:55:39 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 11:55:42 - Check Line Items for Order ID - 6149
+11-30-2018 @ 11:55:42 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 11:55:49 - Check Line Items for Order ID - 6141
+11-30-2018 @ 11:55:49 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 11:57:25 - Link Moodle User for User ID  45
+11-30-2018 @ 11:57:25 - Log from WooIntegration
+11-30-2018 @ 11:57:25 - User Object JSON Encoded : {"data":{"ID":"45","user_login":"rohanww201","user_pass":"$P$BfQu0PAS3f5aLZG0eRiM0ZPG9JRlvb1","user_nicename":"rohanww201","user_email":"rohan+ww201@khacreation.com","user_url":"","user_registered":"2018-11-30 11:57:24","user_activation_key":"","user_status":"0","display_name":"rohanww201"},"ID":45,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-30-2018 @ 11:57:25 - Start creating/updating moodle user, Updating: 0
+11-30-2018 @ 11:57:25 - Checking if username exists....
+11-30-2018 @ 11:58:10 - Check Line Items for Order ID - 6150
+11-30-2018 @ 11:58:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 11:58:32 - Check Line Items for Order ID - 6150
+11-30-2018 @ 11:58:32 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:05:47 - Link Moodle User for User ID  46
+11-30-2018 @ 12:05:47 - Log from WooIntegration
+11-30-2018 @ 12:05:47 - User Object JSON Encoded : {"data":{"ID":"46","user_login":"rohanww202","user_pass":"$P$BvXGAgbRkimOMAhcLcKkn.7tUVdj301","user_nicename":"rohanww202","user_email":"rohan+ww202@khacreation.com","user_url":"","user_registered":"2018-11-30 12:05:47","user_activation_key":"","user_status":"0","display_name":"rohanww202"},"ID":46,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-30-2018 @ 12:05:47 - Start creating/updating moodle user, Updating: 0
+11-30-2018 @ 12:05:47 - Checking if username exists....
+11-30-2018 @ 12:06:34 - Check Line Items for Order ID - 6151
+11-30-2018 @ 12:06:35 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:06:49 - Check Line Items for Order ID - 6151
+11-30-2018 @ 12:06:49 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:17:45 - Link Moodle User for User ID  47
+11-30-2018 @ 12:17:45 - Log from WooIntegration
+11-30-2018 @ 12:17:45 - User Object JSON Encoded : {"data":{"ID":"47","user_login":"rohanww203","user_pass":"$P$BTisl9NISy\/EsXAHHOmW005rG9XET\/.","user_nicename":"rohanww203","user_email":"rohan+ww203@khacreation.com","user_url":"","user_registered":"2018-11-30 12:17:45","user_activation_key":"","user_status":"0","display_name":"rohanww203"},"ID":47,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-30-2018 @ 12:17:45 - Start creating/updating moodle user, Updating: 0
+11-30-2018 @ 12:17:45 - Checking if username exists....
+11-30-2018 @ 12:19:54 - Check Line Items for Order ID - 6152
+11-30-2018 @ 12:19:54 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:23 - Check Line Items for Order ID - 6152
+11-30-2018 @ 12:20:23 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:29 - Associated moodle a/c found? :Yes, Moodle user ID is: 113
+11-30-2018 @ 12:20:29 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:29 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-30-2018 @ 12:20:29 - 
+
+11-30-2018 @ 12:20:29 - Check Line Items for Order ID - 6152
+11-30-2018 @ 12:20:29 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:29 - Associated moodle a/c found? :Yes, Moodle user ID is: 113
+11-30-2018 @ 12:20:29 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:29 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-30-2018 @ 12:20:29 - 
+
+11-30-2018 @ 12:20:29 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:20:30 - Check Line Items for Order ID - 6152
+11-30-2018 @ 12:20:30 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:27:56 - Link Moodle User for User ID  48
+11-30-2018 @ 12:27:56 - Log from WooIntegration
+11-30-2018 @ 12:27:56 - User Object JSON Encoded : {"data":{"ID":"48","user_login":"rohanww204","user_pass":"$P$B7vJpezgZF0a7DLW3JACxQRrX\/t.Mw1","user_nicename":"rohanww204","user_email":"rohan+ww204@khacreation.com","user_url":"","user_registered":"2018-11-30 12:27:55","user_activation_key":"","user_status":"0","display_name":"rohanww204"},"ID":48,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+11-30-2018 @ 12:27:56 - Start creating/updating moodle user, Updating: 0
+11-30-2018 @ 12:27:56 - Checking if username exists....
+11-30-2018 @ 12:28:38 - Check Line Items for Order ID - 6153
+11-30-2018 @ 12:28:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:28:59 - Check Line Items for Order ID - 6153
+11-30-2018 @ 12:28:59 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:10 - Check Line Items for Order ID - 6153
+11-30-2018 @ 12:33:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 114
+11-30-2018 @ 12:33:23 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:23 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-30-2018 @ 12:33:23 - 
+
+11-30-2018 @ 12:33:23 - Check Line Items for Order ID - 6153
+11-30-2018 @ 12:33:23 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:23 - Associated moodle a/c found? :Yes, Moodle user ID is: 114
+11-30-2018 @ 12:33:23 - Course IDs: a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:23 - Respective moodle course IDs: a:1:{i:5959;s:2:"37";}
+11-30-2018 @ 12:33:23 - 
+
+11-30-2018 @ 12:33:23 - User enrolled for courses - a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:33:24 - Check Line Items for Order ID - 6153
+11-30-2018 @ 12:33:24 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+11-30-2018 @ 12:38:31 - Associated moodle a/c found? :Yes, Moodle user ID is: 114
+11-30-2018 @ 12:38:31 - Course IDs: N;
+11-30-2018 @ 12:38:31 - Respective moodle course IDs: a:0:{}
+11-30-2018 @ 12:38:31 - 
+
+11-30-2018 @ 12:38:31 - Check Line Items for Order ID - 6157
+11-30-2018 @ 12:38:31 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 12:38:32 - Check Line Items for Order ID - 6157
+11-30-2018 @ 12:38:32 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 12:39:15 - Associated moodle a/c found? :Yes, Moodle user ID is: 114
+11-30-2018 @ 12:39:15 - Course IDs: N;
+11-30-2018 @ 12:39:15 - Respective moodle course IDs: a:0:{}
+11-30-2018 @ 12:39:15 - 
+
+11-30-2018 @ 12:39:15 - Check Line Items for Order ID - 6158
+11-30-2018 @ 12:39:15 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 12:39:15 - Check Line Items for Order ID - 6158
+11-30-2018 @ 12:39:15 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 12:40:45 - Associated moodle a/c found? :Yes, Moodle user ID is: 114
+11-30-2018 @ 12:40:45 - Course IDs: N;
+11-30-2018 @ 12:40:45 - Respective moodle course IDs: a:0:{}
+11-30-2018 @ 12:40:45 - 
+
+11-30-2018 @ 12:40:45 - Check Line Items for Order ID - 6159
+11-30-2018 @ 12:40:45 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 12:40:45 - Check Line Items for Order ID - 6159
+11-30-2018 @ 12:40:45 - Courses IDs from Line Items  a:0:{}
+11-30-2018 @ 13:55:36 - Check if User enrolled for Order ID - 6150
+11-30-2018 @ 13:55:36 - No User enrollment for Order ID - 6150
+11-30-2018 @ 13:55:36 - Check if User enrolled for Order ID - 6151
+11-30-2018 @ 13:55:36 - No User enrollment for Order ID - 6151
+12-04-2018 @ 10:26:56 - Check Line Items for Order ID - 6159
+12-04-2018 @ 10:26:56 - Courses IDs from Line Items  a:0:{}
+12-04-2018 @ 11:27:27 - Associated moodle a/c found? :Yes, Moodle user ID is: 111
+12-04-2018 @ 11:27:27 - Course IDs: N;
+12-04-2018 @ 11:27:27 - Respective moodle course IDs: a:0:{}
+12-04-2018 @ 11:27:27 - 
+
+12-04-2018 @ 11:27:27 - Check Line Items for Order ID - 6168
+12-04-2018 @ 11:27:27 - Courses IDs from Line Items  a:0:{}
+12-04-2018 @ 11:27:27 - Check Line Items for Order ID - 6168
+12-04-2018 @ 11:27:27 - Courses IDs from Line Items  a:0:{}
+12-04-2018 @ 13:19:57 - Associated moodle a/c found? :Yes, Moodle user ID is: 111
+12-04-2018 @ 13:19:57 - Course IDs: N;
+12-04-2018 @ 13:19:57 - Respective moodle course IDs: a:0:{}
+12-04-2018 @ 13:19:57 - 
+
+12-04-2018 @ 13:19:57 - Check Line Items for Order ID - 6170
+12-04-2018 @ 13:19:57 - Courses IDs from Line Items  a:0:{}
+12-04-2018 @ 13:19:57 - Check Line Items for Order ID - 6170
+12-04-2018 @ 13:19:57 - Courses IDs from Line Items  a:0:{}
+12-04-2018 @ 14:08:26 - Link Moodle User for User ID  49
+12-04-2018 @ 14:08:26 - Log from WooIntegration
+12-04-2018 @ 14:08:26 - User Object JSON Encoded : {"data":{"ID":"49","user_login":"rohan1001","user_pass":"$P$BpV4Sjfx8P8\/g3dgbHASAT28\/MlXj5\/","user_nicename":"rohan1001","user_email":"rohan+1001@khacreation.com","user_url":"","user_registered":"2018-12-04 14:08:26","user_activation_key":"","user_status":"0","display_name":"rohan1001"},"ID":49,"caps":{"customer":true},"cap_key":"wp_capabilities","roles":["customer"],"allcaps":{"read":true,"customer":true},"filter":null}
+12-04-2018 @ 14:08:26 - Start creating/updating moodle user, Updating: 0
+12-04-2018 @ 14:08:26 - Checking if username exists....
+12-04-2018 @ 14:09:10 - Check Line Items for Order ID - 6172
+12-04-2018 @ 14:09:10 - Courses IDs from Line Items  a:1:{i:0;s:4:"5959";}
+12-04-2018 @ 15:52:14 - Check if User enrolled for Order ID - 6172
+12-04-2018 @ 15:52:14 - No User enrollment for Order ID - 6172
