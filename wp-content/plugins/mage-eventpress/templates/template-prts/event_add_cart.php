@@ -82,7 +82,7 @@ if(array_key_exists('mep_reg_status', $event_meta)){
 
 
 if($reg_status!='off'){
-  ?>
+?>
   <h4 class="mep-cart-table-title"> <?php _e('Register Now:','mage-eventpress'); ?></h4>
 <form action="" method='post'>
 <?php do_action('mep_event_ticket_type_extra_service');  ?>

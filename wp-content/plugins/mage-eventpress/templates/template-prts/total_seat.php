@@ -34,12 +34,12 @@ $leftt = $leftt+$llft;
 
 
 ?>
-	<h5><strong><?php _e('Total Seat:','mage-eventpress'); ?></strong> <?php echo $stc; if($mep_available_seat=='on'){ ?> (<strong><?php echo $leftt; ?></strong> Left)<?php } ?></h5>
+	<h5><strong><?php _e('Total Seat:','mage-eventpress'); ?></strong> <?php echo $stc; if($mep_available_seat=='on'){ ?> (<strong><?php echo $leftt; ?></strong> Seats are available)<?php } ?></h5>
 <?php
 
 }else{
 	if($event_meta['mep_total_seat'][0]){ ?>
-	<h5><strong><?php _e('Total Seat:','mage-eventpress'); ?></strong> <?php echo $event_meta['mep_total_seat'][0]; if($mep_available_seat=='on'){ ?> (<strong><?php echo ($event_meta['mep_total_seat'][0]- $total_book); ?></strong> Left) <?php } ?></h5>
+	<h5><strong><?php _e('Total Seat:','mage-eventpress'); ?></strong> <?php echo $event_meta['mep_total_seat'][0]; if($mep_available_seat=='on'){ ?> (<strong><?php echo ($event_meta['mep_total_seat'][0]- $total_book); ?></strong> Seats are available) <?php } ?></h5>
 	<?php } 
 }
 

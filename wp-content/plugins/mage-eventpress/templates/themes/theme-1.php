@@ -45,7 +45,7 @@
 					</div>
 				</div>	
 				<div class="mep-event-location">
-					<h3><?php _e('Event Location:','mage-eventpress'); ?></h3>
+					<h3><?php _e('Location:','mage-eventpress'); ?></h3>
 					<?php do_action('mep_event_location') ?>					
 				</div>
 			</div>			

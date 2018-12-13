@@ -30,7 +30,7 @@ $qty_t_type = $field['option_qty_t_type'];
   ?>
 <tr>
 <td align="Left"><?php echo $field['option_name_t']; ?>
-  <?php if($mep_available_seat=='on'){ ?><div class="xtra-item-left"><?php echo $llft; ?> <?php _e('Left','mage-eventpress'); ?></div> <?php } ?>
+  <?php if($mep_available_seat=='on'){ ?><div class="xtra-item-left"><?php echo $llft; ?> <?php _e('Seats are available ','mage-eventpress'); ?></div> <?php } ?>
 </td>
 <td class="ticket-qty">
 <span class="tkt-qty"> <?php _e('Ticket Qty:','mage-eventpress'); ?> </span>
@@ -44,7 +44,7 @@ if($qty_t_type=='dropdown'){ ?>
   <?php } ?>  
 </select>
 <?php }else{ ?> 
-<input id="eventpxtp_<?php echo $count; ?>" <?php //if($ext_left<=0){ echo "disabled"; } ?> size="4" pattern="[0-9]*" inputmode="numeric" type="number" class='extra-qty-box etp' name='option_qty[]' data-price='<?php echo $field['option_price_t']; ?>' value='0' min="0" max="<?php echo $llft; ?>">
+<input id="eventpxtp_<?php echo $count; ?>" <?php //if($ext_left<=0){ echo "disabled"; } ?> size="4" pattern="[0-9]*" inputmode="numeric" type="number" class='extra-qty-box etp' name='option_qty[]' data-price='<?php echo $field['option_price_t']; ?>' value='1' min="0" max="<?php echo $llft; ?>">
 <?php } } ?>  
 
 
@@ -55,7 +55,7 @@ if($qty_t_type=='dropdown'){ ?>
 
 
 </td>
-<td class="ticket-price"><span class="tkt-pric"><?php _e('Per Ticket Price:','mep'); ?></span>  <strong><?php echo get_woocommerce_currency_symbol().$field['option_price_t']; ?></strong>
+<td class="ticket-price"><span class="tkt-pric"><?php _e('Per Session Price:','mep'); ?></span>  <strong><?php echo get_woocommerce_currency_symbol().$field['option_price_t']; ?></strong>
 
   <p style="display: none;" class="price_jq"><?php echo $field['option_price_t']; ?></p>
   <input type="hidden" name='option_name[]' value='<?php echo $field['option_name_t']; ?>'>
@@ -64,7 +64,15 @@ if($qty_t_type=='dropdown'){ ?>
 </tr>
 <tr>
   <td colspan="3" class='user-innnf'> <div class="user-info-sec">
-    <div id="dadainfo_<?php echo $count; ?>" class="dada-info"></div></div>
+      <div id="dadainfo_<?php echo $count; ?>" class="dada-info">
+    <div id="newDiv1">
+        <div class="mep-user-info-sec">
+            <h5>Attendee info:</h5>
+            <input type="text" required="required" name="user_name[]" value="jony jan" '="" class="mep_input" readonly="" placeholder="Enter Your Name"><input type="email" required="required" name="user_email[]" value="manoj@khacreation.com" readonly="" class="mep_input" placeholder="Enter Your Email"><input type="hidden" name="user_phone[]" class="mep_input" placeholder="Enter Your Phone"><textarea name="user_address[]" class="mep_input mep-hidden" rows="3" placeholder="Enter you address"></textarea><label class="mep-hidden" for="gen" style="text-align: left;">T-Shirt Size<select name="tshirtsize[]" id="gen"><option value="">Please Select</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option></select></label><label class="mep-hidden" for="gen" style="text-align: left;">Gender<select name="gender[]" id="gen"><option value="">Please Select</option><option value="Male">Male</option><option value="Female">Female</option></select></label><input type="hidden" name="user_company[]" class="mep_input" placeholder="Company"><input type="hidden" name="user_designation[]" class="mep_input" placeholder="Designation"><input type="hidden" name="user_website[]" class="mep_input" placeholder="Website"><label class="mep-hidden" for="veg" style="text-align: left;">Vegetarian<select name="vegetarian[]" id="veg"><option value="">Please Select</option><option value="Yes">Yes</option><option value="No">No</option></select></label><input type="hidden" name="ticket_type[]" class="mep_input" value="Semi Private">
+        </div>
+    </div>
+</div>
+    </div>
   </td>
 </tr>
   <?php $count++; } ?>

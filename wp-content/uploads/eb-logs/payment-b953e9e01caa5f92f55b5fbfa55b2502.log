@@ -1,0 +1,14 @@
+12-13-2018 @ 11:36:36 - 
+
+12-13-2018 @ 11:36:36 - Array
+(
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+)
+
+12-13-2018 @ 11:36:36 - IPN Listener Loading...
+12-13-2018 @ 11:36:36 - IPN Listener Loaded
+12-13-2018 @ 11:36:36 - Payment Settings Loaded.
+12-13-2018 @ 11:36:36 - Sandbox Enabled.
+12-13-2018 @ 11:36:36 - Checking Post Method.
+12-13-2018 @ 11:36:36 - Found Exception: Invalid HTTP request method. Exiting....

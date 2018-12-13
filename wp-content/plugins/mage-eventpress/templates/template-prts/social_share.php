@@ -7,7 +7,7 @@ function mep_ev_social_share(){
 	$post_id = $post->ID;
 ?>
 				<div class="mep-event-meta">
-					<?php _e(mep_get_label($post_id,'mep_share_text','Share This Event:'),'mage-eventpress'); ?> <?php mep_social_share(); ?>
+					<?php _e(mep_get_label($post_id,'mep_share_text','Share This Session:'),'mage-eventpress'); ?> <?php mep_social_share(); ?>
 				</div>
 <?php
 }
